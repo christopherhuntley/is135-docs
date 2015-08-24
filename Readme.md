@@ -1,4 +1,4 @@
-#IS135 Course Documents
+# IS135 Course Documents
 _Fall 2015_
 
 * [Syllabus](Syllabus.md)
