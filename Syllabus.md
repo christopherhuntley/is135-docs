@@ -1,8 +1,8 @@
-#IS135 Fundamentals of Web Design
-**Fairfield University, Fall 2015**
+#IS135 Fundamentals of Web Design  
+*Fairfield University, Fall 2015*
 
 ##Course Description
-Students learn the theory and practice of front end web design. Theoretical content will primarily focus on website design, with a heavy emphasis on developing sites that conform to standards and are responsive to the needs of practical applications and mobile devices. Hands-on work will help develop technical skills, working with HTML, CSS, XML, and other web client technologies. Students will learn to use a standard toolset and to follow generally accepted best practices. The course includes weekly web-programming assignments and a semester project. Three credits.
+>Students learn the theory and practice of front end web design. Theoretical content will primarily focus on website design, with a heavy emphasis on developing sites that conform to standards and are responsive to the needs of practical applications and mobile devices. Hands-on work will help develop technical skills, working with HTML, CSS, XML, and other web client technologies. Students will learn to use a standard toolset and to follow generally accepted best practices. The course includes weekly web-programming assignments and a semester project. Three credits.
 
 ##Learning Objectives
 * To learn and apply fundamental principles of web design theory and practice
