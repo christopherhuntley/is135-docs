@@ -42,11 +42,11 @@ The following instructions assume the following hardware & software:
 ##Install the GitHub Desktop app.
 1. [GitHub Desktop](https://desktop.github.com) makes using Git and GitHub *a lot* easier, especially for people who don't program for a living. Without it you would have to enter lots of cryptic Git commands and hope that you didn't misspell something important. GitHub Desktop  also takes care of connecting your repositories to GitHub without having to reenter your password all the time (or deal with SSH keys). 
 2. Download and install GitHub Desktop. 
-3. Open the app. In the Github Desktop preferences (`GitHub Desktop`→`Preferences` on a Mac), link in your GitHub account on the `Accounts` tab and set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab. 
+3. Open the app. In the Github Desktop preferences (`GitHub Desktop`→`Preferences` on a Mac), i) link in your GitHub account on the `Accounts` tab and ii) set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab. 
 
 ##Install the Atom Editor.
 1. Go to the [Atom.io](https://atom.io) and read about all of Atom's killer features.
-2. Check to see if you already have Atom installed. If not, then downlaod and run the installer.
+2. Check to see if you already have Atom installed. If not, then download and run the installer.
 3. We'll be using Atom in a few minutes. Sit tight for now. 
 
 ##Fork and then clone the Learning Web Design repository.
@@ -59,6 +59,8 @@ The following instructions assume the following hardware & software:
 4. Click the `Clone in Desktop` button to create a *local copy* of the repository on your computer. 
 
     ![The GitHub Clone button](images/setup/Clone.png)
+    
+    If you get an error message about Git not being installed, then click the `Install Command Line Tools` button in the GitHub Desktop preferences.  
     
 5. Create the new repository folder on your hard drive or (a thumb drive if you are using a lab computer). To keep things simple, it is recommended to keep all your repositories inside a `GitRepos` folder so you mix them up with other things.
 6. The repository should now appear in GitHub Desktop. 
