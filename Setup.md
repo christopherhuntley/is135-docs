@@ -24,7 +24,7 @@ The following instructions assume the following hardware & software:
 
  *The note about installing Chrome extensions also applies to Firefox extensions. Install what you can and move on.*
 4. You will need to repeat the above on every computer you intend to use for this course.
-5. Once you have Chrome and Firefox installed and configured, please use one or the other of these browsers for the rest of the session. That includes reading this document. **Internet Explorer does not always play nicely with the software used in this course. Do not use it for anything other than testing your pages. Friends don't let friends use IE. You've been warned. ** 
+5. Once you have Chrome and Firefox installed and configured, please use one or the other of these browsers for the rest of the session. That includes reading this document. **Internet Explorer does not always play nicely with the software used in this course. Do not use it for anything other than testing your pages. Friends don't let friends use IE. You've been warned.** 
 
 ##Sign up for GitHub.
 1. In this class you will be editing enormous text files where even one missing bracket ('>') or semi-colon (';') can completely break your web pages. You will at times be tempted to start over at the beginning, which is truly frustrating after you've entered a 3,000 line text file by hand. We'll be using Git and GitHub to keep the chaos to a minimum. 
@@ -34,7 +34,7 @@ The following instructions assume the following hardware & software:
     [GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. *If you know a professional web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired.*
 2. Go to [GitHub.com](https://github.com) and sign up for a free account. So that you qualify for an account upgrade in the next step, be sure to use your Fairfield University email address. You do not have to initialize any repositories yet. We’ll do that in a later step.
 
-    ![GitHub signup](images/t1/GitHubSignup.png)
+    ![GitHub signup](images/setup/GitHubSignup.png)
     
 3. Post your GitHub account information [here](https://docs.google.com/forms/d/1A7oq_6nTaOgUQWSDea50oLf5im--6i4u8adtuitWcOk/viewform) so that you can be added to the `fairfield-is135-fall2015` organization. Adding you to the organization may take a little time, but hopefully we’ll have this done by the end of class.
 4. Once you’ve been added to the `fairfield-is135-fall2015` organization, you will see it listed in your GitHub dashboard the next time you load the page. 
