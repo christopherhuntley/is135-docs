@@ -31,7 +31,7 @@ The following instructions assume the following hardware & software:
 
     [Git](https://git-scm.com) is a Version Control System that keeps track of changes you make to your files so you can *undo* them if needed. It can even *revert* your files to whatever was in them weeks for months before. It's like an undo button that can go back forever. 
     
-    [GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. *If you know a professional web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired.*
+    [GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. _If you know a professional web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired._
 2. Go to [GitHub.com](https://github.com) and sign up for a free account. So that you qualify for an account upgrade in the next step, be sure to use your Fairfield University email address. You do not have to initialize any repositories yet. We’ll do that in a later step.
 
     ![GitHub signup](images/setup/GitHubSignup.png)
