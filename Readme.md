@@ -3,7 +3,7 @@ _Fall 2015_
 
 * [Syllabus](Syllabus.md)
 * [Software Setup](Setup.md)
-* Lectures
+* [Lectures](https://www.youtube.com/playlist?list=PLtlX5I3MSw5EdnGFCkxec0zupOu3Kh5c1)
 * [Tutorials](Tutorials.md)
 * DoW Exercises
 * Term Project (TBA)
