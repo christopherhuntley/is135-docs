@@ -29,7 +29,7 @@ The following instructions assume the following hardware & software:
 ## Sign up for GitHub.
 1. In this class you will be editing enormous text files where even one missing bracket ('>') or semi-colon (';') can completely break your web pages. You will at times be tempted to start over at the beginning, which is truly frustrating after you've entered a 3,000 line text file by hand. We'll be using Git and GitHub to keep the chaos to a minimum.
 
-    [Git](https://git-scm.com) is a Version Control System that keeps track of changes you make to your files so you can *undo* them if needed. It can even *revert* your files to whatever was in them weeks for months before. It's like an undo button that can go back forever.
+    [Git](https://git-scm.com) is a Version Control System that keeps track of changes you make to your files so you can *undo* them if needed. It can even *revert* your files to whatever was in them weeks or months before. It's like an undo button that can go back forever.
 
     [GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. _If you know a professional web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired._
 2. Go to [GitHub.com](https://github.com) and sign up for a free account. So that you qualify for an account upgrade in the next step, be sure to use your Fairfield University email address. You do not have to initialize any repositories yet. We’ll do that in a later step.
@@ -42,7 +42,7 @@ The following instructions assume the following hardware & software:
 ## Install the GitHub Desktop app.
 1. [GitHub Desktop](https://desktop.github.com) makes using Git and GitHub *a lot* easier, especially for people who don't program for a living. Without it you would have to enter lots of cryptic Git commands and hope that you didn't misspell something important. GitHub Desktop  also takes care of connecting your repositories to GitHub without having to reenter your password all the time (or deal with SSH keys).
 2. Download and install GitHub Desktop.
-3. Open the app. In the Github Desktop preferences (`GitHub Desktop`→`Preferences` on a Mac), i) link in your GitHub account on the `Accounts` tab and ii) set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab.
+3. Open the app. You should be asked to set your identity in the preferences. If not (e.g., somebody, not you, has already done that) then open the preferences manually. Then i) link in your GitHub account on the `Accounts` tab and ii) set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab.
 
 ## Install the Atom Editor.
 1. Go to the [Atom.io](https://atom.io) and read about all of Atom's killer features.
@@ -69,6 +69,8 @@ The following instructions assume the following hardware & software:
 1. In GitHub Desktop right-click (control-click on a MacBook) on the *learning-web-design* repository to `Open in Atom`. An Atom window should appear, ready for you to start editing.
 
     ![Open in Atom](images/setup/OpenInAtom.png)
+
+    If that doesn't work then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.). 
 
 2. Open the `Readme.md` file. You will see some plain text with # and * interspersed for formatting. This is Markdown, a formatting language used for writing documentation in plain text. That's what the `.md` means in the filename. GitHub automatically converts Markdown text to HTML for displaying in your web browser.  
 
