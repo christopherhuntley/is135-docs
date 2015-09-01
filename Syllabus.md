@@ -34,7 +34,7 @@
 All of the lectures and assignments will be kept in public Google Drive folders and GitHub repositories maintained by the instructor.
 Weekly lesson plans (with Google and GitHub links) will also be posted in the course Blackboard site. Quizzes will be online and hosted on Blackboard.
 
-In the spirit of [Eating our Own Dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), we will avoid using any software that is not developer-freindly (either open source or free to use with a public API). That specifically means **no MS Office** or other proprietary desktop software like Adobe Photoshop/Illustrator, Dreamweaver, etc. Even your project presentations will be built from scratch using Markdown and HTML.
+In the spirit of [Eating our Own Dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), we will avoid using any software that is not developer-friendly (either [open source](http://opensource.org/definition) or free to use with a [public API](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid))). That specifically means **no MS Office** or other proprietary desktop software like Adobe Photoshop/Illustrator, Dreamweaver, etc. Even your project presentations will be built from scratch using Markdown and HTML.
 
 ### Other Resources
 * Tutorials, examples, and other content drawn from the web
