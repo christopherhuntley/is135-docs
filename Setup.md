@@ -24,7 +24,7 @@ The following instructions assume the following hardware & software:
 
  *The note about installing Chrome extensions also applies to Firefox extensions. Install what you can and move on.*
 4. You will need to repeat the above on every computer you intend to use for this course.
-5. Once you have Chrome and Firefox installed and configured, please use one or the other of these browsers for the rest of the session. That includes reading this document. **Internet Explorer does not always play nicely with the software used in this course. Do not use it for anything other than testing your pages. Friends don't let friends use IE. You've been warned.**
+5. Once you have Chrome and Firefox installed and configured, please use one or the other of these browsers for the rest of the session. That includes reading this document. **Internet Explorer does not always play nicely with the software used in this course. Do not use it for anything other than testing your pages. You've been warned.**
 
 ## Sign up for GitHub.
 1. In this class you will be editing enormous text files where even one missing bracket ('>') or semi-colon (';') can completely break your web pages. You will at times be tempted to start over at the beginning, which is truly frustrating after you've entered a 3,000 line text file by hand. We'll be using Git and GitHub to keep the chaos to a minimum.
@@ -70,7 +70,7 @@ The following instructions assume the following hardware & software:
 
     ![Open in Atom](images/setup/OpenInAtom.png)
 
-    If that doesn't work then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.). 
+    If that doesn't work then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.).
 
 2. Open the `Readme.md` file. You will see some plain text with # and * interspersed for formatting. This is Markdown, a formatting language used for writing documentation in plain text. That's what the `.md` means in the filename. GitHub automatically converts Markdown text to HTML for displaying in your web browser.  
 
