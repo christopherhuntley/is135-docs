@@ -27,11 +27,11 @@ The following instructions assume the following hardware & software:
 5. Once you have Chrome and Firefox installed and configured, please use one or the other of these browsers for the rest of the session. That includes reading this document. **Internet Explorer does not always play nicely with the software used in this course. Do not use it for anything other than testing your pages. You've been warned.**
 
 ## Sign up for GitHub.
-1. In this class you will be editing enormous text files where even one missing bracket ('>') or semi-colon (';') can completely break your web pages. You will at times be tempted to start over at the beginning, which is truly frustrating after you've entered a 3,000 line text file by hand. We'll be using Git and GitHub to keep the chaos to a minimum.
+1. In this class you will be editing enormous text files where even one missing bracket (`>`) or semi-colon (`;`) can completely break your web pages. You will at times be tempted to start over at the beginning, which is truly frustrating after you've entered a 3,000 line text file by hand. We'll be using Git and GitHub to keep the chaos to a minimum.
 
-    [Git](https://git-scm.com) is a Version Control System that keeps track of changes you make to your files so you can *undo* them if needed. It can even *revert* your files to whatever was in them weeks or months before. It's like an undo button that can go back forever.
+    >[Git](https://git-scm.com) is a Version Control System that keeps track of changes you make to your files so you can *undo* them if needed. It can even *revert* your files to whatever was in them weeks or months before. It's like an undo button that can go back forever.
 
-    [GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. _If you know a professional web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired._
+    >[GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. _If you know a 'professional' web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired. Like with using IE, you've been warned._
 2. Go to [GitHub.com](https://github.com) and sign up for a free account. So that you qualify for an account upgrade in the next step, be sure to use your Fairfield University email address. You do not have to initialize any repositories yet. We’ll do that in a later step.
 
     ![GitHub signup](images/setup/GitHubSignup.png)
@@ -70,13 +70,13 @@ The following instructions assume the following hardware & software:
 
     ![Open in Atom](images/setup/OpenInAtom.png)
 
-    If that doesn't work then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.).
+    >If that doesn't work then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.).
 
-2. Open the `Readme.md` file. You will see some plain text with # and * interspersed for formatting. This is Markdown, a formatting language used for writing documentation in plain text. That's what the `.md` means in the filename. GitHub automatically converts Markdown text to HTML for displaying in your web browser.  
+2. Open the `Readme.md` file. You will see some plain text with `#` and `*` characters sprinkled in for formatting. This is Markdown, a formatting language used for writing documentation in plain text. That's what the `.md` means in the filename. GitHub automatically converts Markdown text to HTML for displaying in your web browser.  
 
     ![MarkDown file](images/setup/MarkDown.png)
 
-3. From the menus select `Packages`→`Markdown Preview`→`Toggle Preview` to see what the file looks like on GitHub. If you edit the file, then the preview updates automatically.
+3. From the menus select `Packages`→`Markdown Preview`→`Toggle Preview` to see what the file would look like on GitHub. If you edit the file, then the preview updates automatically.
 
     ![MarkDown preview](images/setup/MarkdownPreview.png)
 
