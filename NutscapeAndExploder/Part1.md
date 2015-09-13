@@ -179,7 +179,8 @@ Here is a finished copy that validates:
     page will help you get started on your use of Netscape and your exploration of the Internet.
   </P>
   <P>
-    To get around, just single-click on any blue or purple word or phrase (<a href="welcome_docs/example-link.html">here's an example</a>).
+    To get around, just single-click on any blue or purple word or phrase
+    (<a href="welcome_docs/example-link.html">here's an example</a>).
     These are "hyperlinks" to other pages. Also, images with blue or purple borders are
     hyperlinks and can be single-clicked as well. You can always return to this page by choosing
     <i>Welcome</i> from your <i>Directory</i> menu.
@@ -275,10 +276,12 @@ Wide Web Services.</A>
   <H2>For More Information about Netscape...</H2>
   <UL>
     <LI>Choose <i>Version Information</i> from the <i>Help</i> menu
-    if you'd like to know what version of Netscape you are running and to obtain information about new releases.
+    if you'd like to know what version of Netscape you are running and to obtain information about
+    new releases.
     </LI>
-    <LI>When you are using Netscape, you may send your comments and ideas to the team that's developing it. Read
-      <A HREF="how-to-give-feedback.html">How to Give Feedback</A> to learn how to do this. We love feedback!
+    <LI>When you are using Netscape, you may send your comments and ideas to the team that's
+    developing it. Read <A HREF="how-to-give-feedback.html">How to Give Feedback</A> to learn
+    how to do this. We love feedback!
     </LI>
     <LI>Finally, you can find out
       <A HREF="how-to-get-support.html">How
