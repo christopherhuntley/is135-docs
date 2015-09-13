@@ -79,7 +79,8 @@
   - Other obsolete attributes like `align` and `width` being used on some `hr` tags. Like the bad tags, these properties are also invalid because they are handles by CSS now.
   - Several messages like `Element hr not allowed as child of element h2 in this context.` This particular message means that the `hr` tag is being used improperly. We'll see why in a bit.
 
-**4. Fix some of the basic structural errors. **
+
+**4. Fix some of the basic structural errors.**
 
 * Take a good long look at the HTML code. We're missing some things. We don't even have an `HTML` tag! Remember that this page from 1994 predates standard HTML; lots of tags we use today didn't exist yet.
 * Add the necessary HTML document structure. It needs the `HTML`, `HEAD`, and `BODY`. Add the required markup, remembering to place the `TITLE` element inside the `HEAD`. It also needs a proper HTML5 `DOCTYPE` at the top of the file. *You may need to go back to your book to be sure you have used the right tags in the right places.*
