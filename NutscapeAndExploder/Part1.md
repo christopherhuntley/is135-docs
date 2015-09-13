@@ -9,7 +9,7 @@
 
 **1. Project Setup.**
 
-* In GitHub Desktop create a new local Git repository by clicking the plus sign in the upper-left-hand corner, selecting Create, and entering the name `nutscape-and-exploder`. This is where we will be keeping your local copy of the project.
+* In GitHub Desktop create a new local Git repository by clicking the plus sign in the upper-left-hand corner, selecting Create, and entering the name `nutscape-and-exploder`. This is where you will be keeping your local working copy of the project.
 
   ![New Git Repo dialog](images/NewGitRepo.png)
 
@@ -100,7 +100,7 @@ When deleting the tags take care not to also delete any text content. We’ll ne
 
 **6. Fix the headings.**
 
-Give some meaning to the headings. Wrap an `H1` element around the “Welcome to Netscape” text. Then wrap `H2` elements around “Getting Started,” “Exploring the Internet,” etc. until you get to the end of the file.
+Give some meaning to the headings. *Wrap* an `H1` element around the “Welcome to Netscape” text by inserting `<H1>` in front and `</H1>` behind. Then wrap `H2` elements around “Getting Started,” “Exploring the Internet,” etc. until you get to the end of the file.
 
 
 **7. Check your progress.**
@@ -121,7 +121,7 @@ Give some meaning to the headings. Wrap an `H1` element around the “Welcome to
 
 **10. Make sure all the list elements are closed properly.**
 
-  There are apparently lots of missing end tags (i.e., with `/` in them). In the early days of HTML a lot of end tags were optional, especially in lists. Let’s start with the end tags in the `DL` and `UL` elements. That means inserting `</li>`, `</dt>`,`</dd>` and possibly some `</ul>` and `</dl>` tags to close things properly.
+  There are apparently lots of missing end tags (i.e., with `/` in them). In the early days of HTML a lot of end tags were optional, especially in lists. Let’s start with the end tags in the `DL` and `UL` elements. That means inserting `</LI>`, `</DT>`,`</DD>` and possibly some `</UL>` and `</DL>` tags to close things properly.
 
   Go to the end of the first `DT` element within the definition list:
 
@@ -132,24 +132,24 @@ Give some meaning to the headings. Wrap an `H1` element around the “Welcome to
   <P>
   ```
 
-   There are multiple problems here. First, there needs to be a `</DT>` at the end of the second line to close off the `<DT>` on the first line. Second, there needs to be a `</DD>` at the end of the third line to close out the `<DD>`. Finally, on the last line there is an 'extra' `P` tag,  which is how Netscape proposed to mark paragraph breaks (i.e., `<P>` would show up at the end of each paragraph instead of having `<P>` at the beginning and `</P>` at the end), list items, etc. Remove the spurious `P` tag. Repeat this process for each `DT` and `DD` element in the `DL`. Don’t forget to cut out the spurious `P` tags.
+   There are multiple problems here. First, there needs to be a `</DT>` at the end of the second line to close off the `<DT>` on the first line. Second, there needs to be a `</DD>` at the end of the third line to close out the `<DD>`. Finally, on the last line there is an 'extra' `<P>`,  which is how Netscape proposed to mark paragraph breaks (i.e., `<P>` would show up at the *end* of each paragraph instead of having `<P>` at the *beginning* and `</P>` at the end), list items, etc. Remove the spurious `<P>` tags. Repeat this process for each `DT` and `DD` element in the `DL`. Don’t forget to cut out the spurious `<P>` tags.
 
    Then follow the same basic process for the unordered list farther down the page. You’ll need to replace a bunch of `<P>` tags with `</LI>` tags.
 
 
 **11. Fix any misplaced/missing P tags.**
 
-Given how Netscape had a penchant for adding extra `<P>` tags at the end of things, we still have a bunch of them littering our document.
+Given Netscape's penchant for adding extra `<P>` tags at the end of each section, we still have a bunch of them littering our document.
 
-* Check each block of text that looks like a paragraph. Does it have a `<P>` in front and a `</P>` behind? If not, then fix it. You shoudl end up with exactly 5 `P` elements.
-* Validate your HTML again. You should get no more errors about `P` elements *except* you might get one error about an unmatched `</P>` just after the `</DL>`. It seems that it is illegal to nest a `DL` inside a `P`. To fix it just move the `</P>` up the file to just above the `<DL>` that starts the definition list. Validate again. You should get no more `P` errors.
+* Check each block of text that looks like a paragraph. Does it have a `<P>` in front and a `</P>` behind? If not, then fix it. You should end up with exactly 5 `P` elements.
+* Validate your HTML again. You will get one error about an unmatched `</P>` just after the `</DL>`. It seems that it is illegal to *nest* a `DL` inside a `P` element. (In other words, `DL` cannot *wrap* `P`.) To fix it just move the `</P>` up the file to just above the `<DL>` that starts the definition list. Validate again. You should get no more `P` errors.
 
 
 **12. Fix the `Element hr not allowed as child of element h2 in this context` errors.**
 
 This error is caused by nesting the series of `HR` (horizontal rule) tags inside an `H2` element near the bottom of the file.
 
-* Move the misplaced `<H2>` tag to just below the `HR` elements and just before the text 'Welcome to the world of Netscape'.
+* Move the misplaced `<H2>` tag to just below the last of the `HR` elements, just before the text 'Welcome to the world of Netscape'.
 * Validate one last time. You should get zero errors.
 
   ![](images/ValidationGreen.png)
