@@ -175,11 +175,13 @@ Here is a finished copy that validates:
   <H1>Welcome to Netscape</H1>
 
   <P>
-    You have just embarked on a journey across the Internet, and Netscape is your vehicle. This welcome page will help you get started on your use of Netscape and your exploration of the Internet.
+    You have just embarked on a journey across the Internet, and Netscape is your vehicle. This welcome
+    page will help you get started on your use of Netscape and your exploration of the Internet.
   </P>
   <P>
-    To get around, just single-click on any blue or purple word or phrase (<a href="welcome_docs/example-link.html">here's an example</a>). These are "hyperlinks" to other pages. Also, images with blue or purple borders are hyperlinks and can be single-clicked
-    as well. You can always return to this page by choosing
+    To get around, just single-click on any blue or purple word or phrase (<a href="welcome_docs/example-link.html">here's an example</a>).
+    These are "hyperlinks" to other pages. Also, images with blue or purple borders are
+    hyperlinks and can be single-clicked as well. You can always return to this page by choosing
     <i>Welcome</i> from your <i>Directory</i> menu.
   </P>
 
@@ -187,9 +189,10 @@ Here is a finished copy that validates:
 
   <H2>Getting Started...</H2>
   <P>
-    If you're just getting started and want some help on how to use Netscape, start by single-clicking on the following hyperlink:
-    <A HREF="guided-tour.html">Guided Tour</A>. Also, check out the
-    <A HREF="online-manual.html">Netscape Handbook</A> for a more in depth view of Netscape.
+    If you're just getting started and want some help on how to use Netscape, start by
+    single-clicking on the following hyperlink: <A HREF="guided-tour.html">Guided Tour</A>.
+    Also, check out the <A HREF="online-manual.html">Netscape Handbook</A> for a more
+    in depth view of Netscape.
   </P>
   <P>
     Should you have any other questions while you are using Netscape, please check out our
@@ -200,8 +203,8 @@ Here is a finished copy that validates:
 
   <H2>Exploring the Internet</H2>
   <P>
-    If you are ready to get on with exploring, you'll find some good Internet starting points under the
-    <I>Directory</I> menu. They are:
+    If you are ready to get on with exploring, you'll find some good Internet starting
+    points under the <I>Directory</I> menu. They are:
   </P>
   <DL>
       <DT>
@@ -211,23 +214,30 @@ Here is a finished copy that validates:
       <DT>
         <A HREF="whats-new.html">What's New!</A>
       </DT>
-      <DD>Want to discover the newest interesting places and events on the Internet? The net is growing every day, and the What's New page will provide you with links to the newest pages and services that you can visit.</DD>
+      <DD>Want to discover the newest interesting places and events on the Internet?
+      The net is growing every day, and the What's New page will provide you with links
+      to the newest pages and services that you can visit.</DD>
 
       <DT>
         <A HREF="whats-cool.html">What's Cool!</A>
       </DT>
-      <DD>Tired of slogging through the What's New page looking at every new Internet site under the sun? The What's Cool page highlights some of the most interesting and compelling resources on the Internet. It changes regularly, so stop back often.
+      <DD>Tired of slogging through the What's New page looking at every new Internet
+      site under the sun? The What's Cool page highlights some of the most interesting
+      and compelling resources on the Internet. It changes regularly, so stop back often.
       </DD>
 
       <DT>
         <A HREF="newsrc:">Go to Newsgroups</A>
       </DT>
-      <DD>There are thousands of newsgroups on the Internet where users get together to discuss a wide variety of topics. With Netscape, you can participate in these groups, follow along and get involved in conversations, and post your own replies.</DD>
+      <DD>There are thousands of newsgroups on the Internet where users get together to
+      discuss a wide variety of topics. With Netscape, you can participate in these groups,
+      follow along and get involved in conversations, and post your own replies.</DD>
 
       <DT>
         <A HREF="internet-index.html">Internet Directory</A>
       </DT>
-      <DD>This is your Directory of Directories: each of these directories is a catalog of available information on the Internet.</DD>
+      <DD>This is your Directory of Directories: each of these directories is a catalog of
+      available information on the Internet.</DD>
 
 
       <DT>
@@ -256,14 +266,16 @@ Wide Web Services.</A>
       <DT>
         <A HREF="http://mosaic.mcom.com/">Mosaic Communications Corporation</A>
       </DT>
-      <DD>If you'd like to read about the company and the people that brought you Netscape, you can visit the Mosaic Communications home page. </DD>
+      <DD>If you'd like to read about the company and the people that brought you Netscape,
+      you can visit the Mosaic Communications home page. </DD>
   </DL>
 
   <HR>
 
   <H2>For More Information about Netscape...</H2>
   <UL>
-    <LI>Choose <i>Version Information</i> from the <i>Help</i> menu if you'd like to know what version of Netscape you are running and to obtain information about new releases.
+    <LI>Choose <i>Version Information</i> from the <i>Help</i> menu
+    if you'd like to know what version of Netscape you are running and to obtain information about new releases.
     </LI>
     <LI>When you are using Netscape, you may send your comments and ideas to the team that's developing it. Read
       <A HREF="how-to-give-feedback.html">How to Give Feedback</A> to learn how to do this. We love feedback!
