@@ -13,7 +13,7 @@
 
   ![New Git Repo dialog](images/NewGitRepo.png)
 
-* You'll see your new repository on the **Other** list below those on **GitHub**. This is because we can use GitHub Desktop with **Bitbucket**, **GitLab**, or any number of other Git Hosting systems. Currently the repository isn't hosted -- it's just a folder on your local hard drive -- so it's listed as **Other**.
+* You'll see your new repository on the **Other** list below those on **GitHub**. GitHub Desktop makes the distinction is because we can use GitHub Desktop with **Bitbucket**, **GitLab**, or any number of other Git hosting systems to share our repositories on the web. Currently the repository isn't hosted -- it's just a folder on your local hard drive -- so it's listed as **Other**.
 
   ![Local repos are considered Other](images/Other.png)
 
@@ -21,24 +21,24 @@
 
  ![Publish Button](images/PublishButton.png)
 
- * In the publish dialog (popup form), give the repository a useful description and then push it to GitHub.
+* In the publish dialog (popup form), give the repository a useful description and then push it to GitHub.
 
   ![Publish Dialog](images/PublishDialog.png)
 
- The repository should now move from **Other** to **GitHub** in the repo lists in GitHub Desktop. You will also find an empty repository on your GitHub account.
+ The repository should now move from **Other** to **GitHub** in the repo lists in GitHub Desktop. You will also find an empty repository on your GitHub account. That's okay.
 
-**2. Create and commit a workable copy of the source code.**
+**2. Create and commit a working copy of the source code.**
 
-* Using Chrome or Firefox, search for a website with the text "Welcome to Netscape" from Mosaic Communications. The page should look something like this:
+* Using Chrome or Firefox, search for a web page with the text "Welcome to Netscape" from Mosaic Communications. The page should look something like this:
 
   ![Welcome to Netscape](images/welcome-html-1994.png)
 
-  It was part of one of the first commercial websites and home to the makers of the Netscape Navigator browser. There was more to the site, of course. Just point your browser to http://home.mcom.com to see the rest of the site. The company, which eventually became Netscape Communications, was sold to AOL back in the late 1990s. AOL continues to host the site because of its historical value. If you go to http://mcom.com you will be redirected to a copy of AOL's home page.
+  This page was part of one of the first commercial websites and home to the makers of the Netscape Navigator browser. There was more to the site, of course. Just point your browser to http://home.mcom.com to see the rest. The company, which eventually became Netscape Communications, was sold to AOL back in the late 1990s. AOL continues to host the site because of its historical value. If you go to http://mcom.com you will be redirected to a copy of AOL's home page.
 * Select`view source` from the Web Developer Toolbar. In Chrome that's in the toolbar's `Tools` menu. In Firefox it should be visible on the right of the toolbar.
 
   ![View Source Tool in Chrome](images/ViewSource.png)
 
-  The result should look like this:
+  The source code should look like this:
 
   ![HTML Source](images/ViewSourceHtml.png)
 
@@ -50,26 +50,26 @@
 * In Atom, paste the HTML into the `welcome1994.html` file.
   ![](images/Welcome1994html.png)
 
-  Save the file and then Preview the HTML (`Packages`→`Preview HTML`→`Enable Preview`). You should see the text, but the banner image at the top is missing.
+  Save the file and then Preview the HTML (`Packages`→`Preview HTML`→`Enable Preview`). You should see the text, but the banner image at the top is missing. The image we need is still there on the Netscape page. We just haven't copied it yet.
   ![](images/PreviewMissingBanner.png)
-* The image we need is still there on the Netscape page. Go back to your web browser and close the HTML source tab. Then right-click on the image, select "Save image as ...", and save it to your `nutscape-and-explorer` folder. Great, we're almost all set up! However, if we preview the HTML in Atom, we still don't see the banner image.
+* Go back to your web browser and close the HTML source tab. Then right-click on the banner image at the top, select "Save image as ...", and save it to your `nutscape-and-explorer` folder. Great, we're almost all set up! However, if we preview the HTML in Atom, we still don't see the banner image.
   ![](images/TilesOutOfFolder.png)
 
-  The file is definitely there -- we can see it on the left -- but it is simply not shown in the preview. The solution is is in the `src` of the image in the html. Notice how the filepath starts with `images/` before it gets to the `tiles.gif`? That means that the file is supposed to be inside a folder called `images`. So, create a new folder named `images` (right-click on the project at left and select `New Folder`), click on the folder to expand it, and then drag the `tiles.gif` file into the new folder. After closing and reopening the HTML preview, you should finally see the missing banner image. The new folder with the file nested inside is shown at left.
+  The file is definitely there -- we can see it on the left -- but it is simply not shown in the preview. The solution is in the `src` of the image in the html. Notice how the filepath starts with `images/` before it gets to the `tiles.gif` filename? That means that the file is supposed to be inside a folder called `images`. So, create a new folder named `images` (right-click on the project at left and select `New Folder`), click on the folder to expand it, and then drag the `tiles.gif` file into the new folder. After closing and reopening the HTML preview, you should finally see the missing banner image. The new folder with the file nested inside is shown at left.
 
   ![](images/ReadyToStart.png)
 
 * Right-click on the `welcome1994.html` file and make a `Duplicate`. Name the duplicate `welcome2015.html`. We are going to be doing all our work on the `welcome2015.html` file, comparing it from time to time to the original `welecome1994.html` to mark our progress.
 
-* In GitHub Desktop, commit your three changes with the summary comment 'Initial file import'. Then publish (push) your changes to GitHub.
+* In GitHub Desktop, commit your changes (three files) with the summary comment 'Initial file import'. Then publish (push) your changes to GitHub.
 
 **3. Validate the `welcome2015.html` file.**
 
-* Use the W3C HTML Validator to validate our file. You should use the 'Validate by File Upload' method and then select the file from your hard drive. Before hitting the 'validate' button, expand the 'More Options' menu and then set the 'Document Type' to 'HTML5 (experimental)'. You should get a total of 47 errors, warnings, and info messages.
+* Use the W3C HTML Validator to validate the file. You should use the 'Validate by File Upload' method and then select the file from your hard drive. Before hitting the 'validate' button, expand the 'More Options' menu and then set the 'Document Type' to 'HTML5 (experimental)'. You should get a total of 47 errors, warnings, and info messages.
 
   ![W3C Validator](images/ValidateNetscapeAsHTML5.jpg)
 
-  *If your results differ then you likely did not select HTML5 as the 'Document Type'.*
+  *If your results don't look like this then you likely did not select HTML5 as the 'Document Type'.*
 
 * Your job this session is to revise the `welcome2015.html` file to comply with HTML5, even if it doesn't come out looking exactly the same in the browser. We’ll step through each bugfix together in the steps that follow. First, however, take a couple minutes to talk through some of the errors:
 
@@ -110,7 +110,7 @@ Give some meaning to the headings. Wrap an `H1` element around the “Welcome to
 
 **8. Address the obvious validation errors.**
 
-* Add a `META` element to the HEAD with the `UTF-8` character set. You may want to look up the syntax for the META tag in your book to be sure you’re doing it right. Rerun the validator to make sure the charset error goes away.
+* Add a `META` element to the HEAD with the `UTF-8` character set. You may want to look up the syntax for the `META` tag in your book to be sure you’re doing it right. Rerun the validator to make sure the charset error goes away.
 * Add an `ALT` attribute to the `IMG` tag indicating that the image is a 'logo'. Rerun the validator again. While you’re there, wrap some quotation marks around the numerical height and width attributes. While HTML5 allows numerical attribute values to be unquoted, it’s considered unprofessional and besides, the next version of HTML may require the quotes.
 
 
@@ -132,7 +132,7 @@ Give some meaning to the headings. Wrap an `H1` element around the “Welcome to
   <P>
   ```
 
-   There are multiple problems here. First, there needs to be a `<\DT>` at the end of the second line to close off the `<DT>` on the first line. Second, there needs to be a `<\DD>` at the end of the third line to close out the `<DD>`. Finally, on the last line there is an 'extra' `P` tag,  which is how Netscape proposed to mark paragraph breaks (i.e., `<P>` would show up at the end of each paragraph instead of having `<P>` at the beginning and `</P>` at the end), list items, etc. Remove the spurious `P` tag. Repeat this process for each `DT` and `DD` element in the `DL`. Don’t forget to cut out the spurious `P` tags.
+   There are multiple problems here. First, there needs to be a `</DT>` at the end of the second line to close off the `<DT>` on the first line. Second, there needs to be a `</DD>` at the end of the third line to close out the `<DD>`. Finally, on the last line there is an 'extra' `P` tag,  which is how Netscape proposed to mark paragraph breaks (i.e., `<P>` would show up at the end of each paragraph instead of having `<P>` at the beginning and `</P>` at the end), list items, etc. Remove the spurious `P` tag. Repeat this process for each `DT` and `DD` element in the `DL`. Don’t forget to cut out the spurious `P` tags.
 
    Then follow the same basic process for the unordered list farther down the page. You’ll need to replace a bunch of `<P>` tags with `</LI>` tags.
 
