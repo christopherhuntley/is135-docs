@@ -33,8 +33,8 @@
 
   ![Welcome to Netscape](images/welcome-html-1994.png)
 
-  This page was part of one of the first commercial websites and home to the makers of the Netscape Navigator browser. There was more to the site, of course. Just point your browser to http://home.mcom.com to see the rest. The company, which eventually became Netscape Communications, was sold to AOL back in the late 1990s. AOL continues to host the site because of its historical value. If you go to http://mcom.com you will be redirected to a copy of AOL's home page.
-* Select`view source` from the Web Developer Toolbar. In Chrome that's in the toolbar's `Tools` menu. In Firefox it should be visible on the right of the toolbar.
+  This page was home to Netscape Navigator, the first commercially successful web browser. There was more to the Mosaic Communications website, of course. Just point your browser to http://home.mcom.com to see the rest. The company, which eventually became Netscape Communications, was sold to AOL back in the late 1990s. AOL continues to host the site because of its historical value. If you go to http://mcom.com you will be redirected to a copy of AOL's home page.
+* Select`view source` from the Web Developer Toolbar. In Chrome that's in the toolbar's `Tools` menu. In Firefox it should be visible on the right side of the toolbar.
 
   ![View Source Tool in Chrome](images/ViewSource.png)
 
