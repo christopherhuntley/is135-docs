@@ -98,17 +98,17 @@ Eliminate all the obsolete tags and attributes that were used to do things that 
 When deleting the tags take care not to also delete any text content. We’ll need that.
 
 
-**6. Fix the headings. **
+**6. Fix the headings.**
 
 Give some meaning to the headings. Wrap an `H1` element around the “Welcome to Netscape” text. Then wrap `H2` elements around “Getting Started,” “Exploring the Internet,” etc. until you get to the end of the file.
 
 
-**7. Check your progress. **
+**7. Check your progress.**
 
   Run the W3C Validator again. You should get 13 messages, many of which read `Element hr not allowed as child of element h2 in this context.` That's better, but we're obviously not done.
 
 
-**8. Address the obvious validation errors. **
+**8. Address the obvious validation errors.**
 
 * Add a `META` element to the HEAD with the `UTF-8` character set. You may want to look up the syntax for the META tag in your book to be sure you’re doing it right. Rerun the validator to make sure the charset error goes away.
 * Add an `ALT` attribute to the `IMG` tag indicating that the image is a 'logo'. Rerun the validator again. While you’re there, wrap some quotation marks around the numerical height and width attributes. While HTML5 allows numerical attribute values to be unquoted, it’s considered unprofessional and besides, the next version of HTML may require the quotes.
@@ -145,7 +145,7 @@ Given how Netscape had a penchant for adding extra `<P>` tags at the end of thin
 * Validate your HTML again. You should get no more errors about `P` elements *except* you might get one error about an unmatched `</P>` just after the `</DL>`. It seems that it is illegal to nest a `DL` inside a `P`. To fix it just move the `</P>` up the file to just above the `<DL>` that starts the definition list. Validate again. You should get no more `P` errors.
 
 
-**12. Fix the `Element hr not allowed as child of element h2 in this context` errors. **
+**12. Fix the `Element hr not allowed as child of element h2 in this context` errors.**
 
 This error is caused by nesting the series of `HR` (horizontal rule) tags inside an `H2` element near the bottom of the file.
 
@@ -155,7 +155,7 @@ This error is caused by nesting the series of `HR` (horizontal rule) tags inside
   ![](images/ValidationGreen.png)
 
 
-**13. Check (and correct) your work. **
+**13. Check (and correct) your work.**
 
 Here is a finished copy that validates:
 
@@ -299,6 +299,6 @@ to Get Support</A> for Netscape from Mosaic Communications Corporation.
 ```
 
 
-**14. Commit and Sync your changes to GitHub. **
+**14. Commit and Sync your changes to GitHub.**
 
 Use the commit summary 'Part 1 complete. The HTML validates.' You are now done with this for now. We'll come back to finish up after we've mastered a little CSS.
