@@ -59,13 +59,13 @@
 
   ![](images/ReadyToStart.png)
 
-* Right-click on the `welcome1994.html` file and make a `Duplicate`. Name the duplicate `welcome2015.html`. We are going to be doing all our work on the `welcome2015.html` file, comparing it from time to time to the original `welecome1994.html` to mark our progress.
+* Right-click on the `welcome1994.html` file and make a `Duplicate`. Name the duplicate `welcome2015.html`. We are going to be doing all our work on the `welcome2015.html` file, comparing it from time to time to the original `welcome1994.html` to mark our progress.
 
 * In GitHub Desktop, commit your changes (three files) with the summary comment 'Initial file import'. Then publish (push) your changes to GitHub.
 
 **3. Validate the `welcome2015.html` file.**
 
-* Use the W3C HTML Validator to validate the file. You should use the 'Validate by File Upload' method and then select the file from your hard drive. Before hitting the 'validate' button, expand the 'More Options' menu and then set the 'Document Type' to 'HTML5 (experimental)'. You should get a total of 47 errors, warnings, and info messages.
+* Use the W3C HTML Validator to validate the file. Select the 'Validate by File Upload' method and then select the file from your hard drive. Before hitting the 'validate' button, expand the 'More Options' menu and set the 'Document Type' to 'HTML5 (experimental)'. The Validator should return a total of 47 errors, warnings, and info messages.
 
   ![W3C Validator](images/ValidateNetscapeAsHTML5.jpg)
 
@@ -74,15 +74,15 @@
 * Your job this session is to revise the `welcome2015.html` file to comply with HTML5, even if it doesn't come out looking exactly the same in the browser. We’ll step through each bugfix together in the steps that follow. First, however, take a couple minutes to talk through some of the errors:
 
   - A missing DOCTYPE (error message #3), which is why we had to set HTML5 in the validator.
-  - An `img` tag missing an `alt` attribute. the vaidator will flag this for every image that doesn't have alt text for accessibility. If you have a purely decorative image that does not need explanatory text, then the right thing is to set the alt text to an empty text string ('').
-  - Use of obsolete tags, including `basefont` (in error #6), `font` (many times), and `center` (error #44). This should be expected. We use CSS to handle things like fonts and centering in HTML5.
-  - Other obsolete attributes like `align` and `width` being used on some `hr` tags. Like the bad tags, these properties are also invalid because they are handles by CSS now.
-  - Several messages like `Element hr not allowed as child of element h2 in this context.` This particular message means that the `hr` tag is being used improperly. We'll see why in a bit.
+  - An `img` tag missing an `alt` attribute. The vaidator will flag this for every image that doesn't have alt text for accessibility. If you have a purely decorative image that does not need explanatory text, then the right thing is to set the alt text to an empty text string ('').
+  - Use of obsolete tags, including `basefont` (in error #6), `font` (in many error messages), and `center` (error #44). The obsolete tags should be expected. We use CSS to handle things like fonts and centering in HTML5.
+  - Other obsolete attributes like `ALIGN` and `WIDTH` being used on some `HR` tags. Like the bad tags, these properties are also invalid because they are handles by CSS now.
+  - Several messages like `Element hr not allowed as child of element h2 in this context.` This particular message means that the `HR` element is being used improperly. We'll see why in a bit.
 
 
 **4. Fix some of the basic structural errors.**
 
-* Take a good long look at the HTML code. We're missing some things. We don't even have an `HTML` tag! Remember that this page from 1994 predates standard HTML; lots of tags we use today didn't exist yet.
+* Take a good long look at the HTML code. We're missing some things. We don't even have an `<HTML>` tag! Remember that this page from 1994 predates standard HTML; lots of tags we use today didn't exist yet.
 * Add the necessary HTML document structure. It needs the `HTML`, `HEAD`, and `BODY`. Add the required markup, remembering to place the `TITLE` element inside the `HEAD`. It also needs a proper HTML5 `DOCTYPE` at the top of the file. *You may need to go back to your book to be sure you have used the right tags in the right places.*
 
   ![](images/BasicHtmlStructure.png)
@@ -90,12 +90,12 @@
 
 **5. Eliminate Obsolete HTML Markup.**
 
-Eliminate all the obsolete tags and attributes that were used to do things that CSS is supposed to handle now. That includes:
+Delete all the obsolete tags and attributes that were used to do things that CSS is supposed to handle now. That includes:
 * all `FONT`, `CENTER`, `BASEFONT` tags
 * all `ALIGN`, `WIDTH`, and `SIZE` attributes from the `HR` tags
 * Bold (`B`) tags used for things that are really headings
 
-When deleting the tags take care not to also delete any text content. We’ll need that.
+When deleting the tags take care not to also delete any text content between tags. We’ll need that.
 
 
 **6. Fix the headings.**
@@ -111,17 +111,17 @@ Give some meaning to the headings. *Wrap* an `H1` element around the “Welcome 
 **8. Address the obvious validation errors.**
 
 * Add a `META` element to the HEAD with the `UTF-8` character set. You may want to look up the syntax for the `META` tag in your book to be sure you’re doing it right. Rerun the validator to make sure the charset error goes away.
-* Add an `ALT` attribute to the `IMG` tag indicating that the image is a 'logo'. Rerun the validator again. While you’re there, wrap some quotation marks around the numerical height and width attributes. While HTML5 allows numerical attribute values to be unquoted, it’s considered unprofessional and besides, the next version of HTML may require the quotes.
+* Add an `ALT` attribute to the `IMG` tag indicating that the image is a 'logo'. While you’re there, wrap some quotation marks around the numerical height and width attributes. While HTML5 allows numerical attribute values to be unquoted, it’s considered unprofessional and besides, the next version of HTML may require the quotes. Rerun the validator again.
 
 
 **9. Debug the extra `</UL>` flagged by the Validator.**
 
-  The stray `</UL>` is an artifact left behind from a previous version of the page. Apparently, the definition list (`DL`) element in the middle of the page was originally a bullet list (UL). Change the `</UL>` to `</DL>`. Make sure you’re doing it in the right place. That’s why the validator gives you a line number. Rerun the validator; two list-related bugs (stray `</UL>` and unclosed `<DL>`) should go away. In fact, the validator may even say the page passes! Of course that doesn’t mean we’re done. There are still lots of problems to fix.
+  The stray `</UL>` is an artifact left behind from a previous version of the page. Apparently, the definition list (`DL`) element in the middle of the page was originally a bullet list (UL). Change the `</UL>` to `</DL>`. Make sure you’re doing it in the right place. That’s why the validator gives you a line number. Rerun the validator; two list-related bugs (stray `</UL>` and unclosed `<DL>`) should go away. In fact, the validator could even say the page passes! Of course that doesn’t mean we’re done. There are still lots of problems to fix.
 
 
 **10. Make sure all the list elements are closed properly.**
 
-  There are apparently lots of missing end tags (i.e., with `/` in them). In the early days of HTML a lot of end tags were optional, especially in lists. Let’s start with the end tags in the `DL` and `UL` elements. That means inserting `</LI>`, `</DT>`,`</DD>` and possibly some `</UL>` and `</DL>` tags to close things properly.
+  There are apparently lots of missing end tags (i.e., with `/` in them). In the early days of HTML a lot of end tags were optional, especially in list elements. That means inserting `</LI>`, `</DT>`,`</DD>` and possibly some `</UL>` and `</DL>` tags to close things properly.
 
   Go to the end of the first `DT` element within the definition list:
 
@@ -132,17 +132,17 @@ Give some meaning to the headings. *Wrap* an `H1` element around the “Welcome 
   <P>
   ```
 
-   There are multiple problems here. First, there needs to be a `</DT>` at the end of the second line to close off the `<DT>` on the first line. Second, there needs to be a `</DD>` at the end of the third line to close out the `<DD>`. Finally, on the last line there is an 'extra' `<P>`,  which is how Netscape proposed to mark paragraph breaks (i.e., `<P>` would show up at the *end* of each paragraph instead of having `<P>` at the *beginning* and `</P>` at the end), list items, etc. Remove the spurious `<P>` tags. Repeat this process for each `DT` and `DD` element in the `DL`. Don’t forget to cut out the spurious `<P>` tags.
+   There are multiple problems here. First, there needs to be a `</DT>` at the end of the second line to close off the `<DT>` on the first line. Second, there needs to be a `</DD>` at the end of the third line to close out the `<DD>`. Finally, on the last line there is an 'extra' `<P>`,  which is how Netscape proposed to mark paragraph breaks (i.e., `<P>` would show up at the *end* of each paragraph instead of having `<P>` at the *beginning* and `</P>` at the end) and other section breaks. Remove the spurious `<P>` tags. Repeat this process for each `DT` and `DD` element in the `DL`. Don’t forget to cut out the spurious `<P>` tags.
 
    Then follow the same basic process for the unordered list farther down the page. You’ll need to replace a bunch of `<P>` tags with `</LI>` tags.
 
 
-**11. Fix any misplaced/missing P tags.**
+**11. Fix any misplaced/missing `<P>` tags.**
 
 Given Netscape's penchant for adding extra `<P>` tags at the end of each section, we still have a bunch of them littering our document.
 
 * Check each block of text that looks like a paragraph. Does it have a `<P>` in front and a `</P>` behind? If not, then fix it. You should end up with exactly 5 `P` elements.
-* Validate your HTML again. You will get one error about an unmatched `</P>` just after the `</DL>`. It seems that it is illegal to *nest* a `DL` inside a `P` element. (In other words, `DL` cannot *wrap* `P`.) To fix it just move the `</P>` up the file to just above the `<DL>` that starts the definition list. Validate again. You should get no more `P` errors.
+* Validate your HTML again. You will get one error about an unmatched `</P>` just after the `</DL>`. It seems that it is illegal to *nest* a `DL` inside a `P` element in HTML5. (In other words, `DL` cannot *wrap* `P`.) To fix it just move the `</P>` up the file to just above the `<DL>` that starts the definition list. Validate again. You should get no more `P` errors.
 
 
 **12. Fix the `Element hr not allowed as child of element h2 in this context` errors.**
