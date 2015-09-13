@@ -8,7 +8,7 @@
 ## This Semester's Planned Tutorials
 
 * [IQBDA](IQBDA/Readme.md)
-* Nutscape & Exploder
+* [Nutscape & Exploder](NutscapeAndExploder/Readme.md)
 * Fairfield.Edu
 * MyRWD
 * Bootstrap Everything
