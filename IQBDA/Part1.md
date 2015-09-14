@@ -14,7 +14,7 @@
 The finished code must follow these guidelines:
 
 * **Sectioning elements are used where semantically appropriate.**
->Replace the header `div` with a `header` element with `id=”masthead"`. Similarly, convert the navbar `div` to a `nav` element with `id=”navbar”` and the 'content' `div` to a `main` element with `class="content"`. If you don’t understand this, please look up `div`, `header`, `nav` and `id` in your book and then ask! The `main` element is a new addition to HTML5 that has only recently gotten 95% support from browsers.
+>Replace the header `div` with a `header` element with `id="masthead"`. Similarly, convert the navbar `div` to a `nav` element with `id="navbar"` and the 'content' `div` to a `main` element with `class="content"`. If you don’t understand this, please look up `div`, `header`, `nav` and `id` in your book and then ask! The `main` element is a new addition to HTML5 that has only recently gotten 95% support from browsers.
 
 * **The other divs and spans remain unchanged.**
 >They are not causing any of our problems, and we’re going to need them later for styling with CSS.
