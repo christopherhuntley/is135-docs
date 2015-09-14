@@ -32,10 +32,12 @@ The finished code must follow these guidelines:
 >Again, "naked text" is covered in the book and the video. If no other tags make sense then just enlose text in paragraphs as needed.
 
 * **All required attributes are specified.**
->Pay attention to the turtle image ('Skittles'). 
+>Pay attention to the turtle image ('Skittles').
 
-* The W3C validator returns no errors (but perhaps 1 warning).
+* **The W3C validator returns no errors.**
 >Be sure that you have saved the file before running the validator.
+
+  ![](images/part1s2.jpg)
 
 **3. Check your work.**
 
@@ -43,6 +45,6 @@ The finished page should look a lot like it did at the start, only this time the
 
   ![](images/part1s3.png)
 
-**4. Push to GitHub. **
+**4. Push to GitHub.**
 
 Commit your work to the local Git repository (with the summary comment “Completed part 1”) and then sync your changes to GitHub.
