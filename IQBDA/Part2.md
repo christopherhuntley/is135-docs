@@ -5,13 +5,13 @@
 * Markup text for the web
 * Create an HTML table
 
-**1. Study the `index.html` file.**  
+**1. Study the `index.html` file for reusable 'template' HTML.**  
 
   * Open the project in Atom. Take a moment to refamiliarize yourself with the `index.html` file. Immediately inside the `body` is a `div` with `id=“page-wrapper”` that acts as a *container* for the entire page. This “page-wrapper” will be used to provide a margin for the page in another work session.
 
   * Inside the page-wrapper (note: we've stared using this term generically because it's what everybody calls them) are several other sectional and `div` elements that represent various functional regions of the page, as indicated by their `id` attributes: `masthead`, `navbar`, and `content`. Together they act as a template for the page content, one that we’ll want to follow on every page of the site. We will want to reuse the `header` and `nav`, which should look exactly the same on every page, but the `content` will vary. We’ll see how that works in a moment.
 
-**2. Create the `iqbdc.html` file, resusing HTML from `index.html`.**
+**2. Create the `iqbdc.html` file, reusing HTML from `index.html`.**
 
   * Right-click on the project folder and create a blank file named `iqbdc.html`. Be sure to use all lowercase letters. Otherwise, a couple relative links in index.html won’t match the filename. The file should be completely empty.
 
