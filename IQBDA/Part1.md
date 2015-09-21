@@ -1,6 +1,9 @@
-# IQBDA Part 1
+# IQBDA Part 1: HTML Basics
 
 ## Objectives
+* Learn basics of HTML document structure
+* Introduce HTML5 sectioning elements
+* Debug an existing document
 
 **1. Clean up the document structure.**
 
