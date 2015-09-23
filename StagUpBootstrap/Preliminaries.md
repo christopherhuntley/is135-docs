@@ -7,7 +7,9 @@
 **1. Open the [Bootstrap docs](http://getbootstrap.com) and take a look around.**  
   ![](images/prelim1.png)
 
-  The Bootstrap framework is designed to provide reusable code and tools for building websites. Bootstrap is developed and maintained by the front-end engineers at Twitter has become very popular with web designers for its simplicity and huge feature set. Bootstrap 3 is the current production release, with version 4 (currently in alpha) expected sometime in late 2015 or 2016. We will be using version 3 though we might take a peek at version 4 once it’s closer to a production release.
+   Developed and maintained by the front-end engineers at Twitter, the Bootstrap framework is a bunch of pre-built (and tested!) CSS and Javscript code that we can use in our projects. Bootstrap has become very popular with web designers for its simplicity and huge feature set. Bootstrap 3 is the current production release, with version 4 (currently in alpha) expected sometime in late 2015 or 2016. We will be using version 3 though we might take a peek at version 4 once it’s closer to a production release.
+
+   > When terms like 'alpha' and 'beta' are applied to software, it means that it is not yet ready to be used for anything that absolutely has to work. 'Alpha' software is the least 'mature,' with lost of bugs and likely a bunch of missing features. 'Beta' software is more mature, with fewer bugs but not yet ready for 'production' use by the general public. There is actually a lot more to this stuff, but the more subtle differences between 'alpha,' 'beta,' and 'production' are irrelevant for our purposes. Ask if you'd like to know more about software release management.
 
   The documentation are organized into several pages, each of which covers a different kind of *feature*:
   * **Getting Started**  
