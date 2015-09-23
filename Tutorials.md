@@ -9,7 +9,7 @@
 
 * [IQBDA](IQBDA/Readme.md)
 * [Nutscape & Exploder](NutscapeAndExploder/Readme.md)
+* [StagUp Bootstrap](StagUpBoostrap/Readme.md)
 * Fairfield.Edu
 * MyRWD
-* Bootstrap Everything
 * Less is More (for Now, Anyway)
