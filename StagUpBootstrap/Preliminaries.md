@@ -7,7 +7,7 @@
 **1. Open the [Bootstrap docs](http://getbootstrap.com) and take a look around.**  
   ![](images/prelim1.png)
 
-  The framework is designed to provide reusable code and tools for building websites. The framework is developed and maintained by the front-end engineers at Twitter has become very popular with web designers for its simplicity and huge feature set. Bootstrap 3 is the current production release, with version 4 (currently in alpha) expected sometime in late 2015 or 2016. We will be using version 3 though we might take a peek at version 4 once it’s closer to a production release.
+  The Bootstrap framework is designed to provide reusable code and tools for building websites. Bootstrap is developed and maintained by the front-end engineers at Twitter has become very popular with web designers for its simplicity and huge feature set. Bootstrap 3 is the current production release, with version 4 (currently in alpha) expected sometime in late 2015 or 2016. We will be using version 3 though we might take a peek at version 4 once it’s closer to a production release.
 
   The documentation are organized into several pages, each of which covers a different kind of *feature*:
   * **Getting Started**  
