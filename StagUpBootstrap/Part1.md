@@ -1,4 +1,4 @@
-# StagUp Bootstrap Part 1
+# StagUp Bootstrap Part 1: Setup
 ## Objectives
 * Set up a new Git repository and publish it to GitHub
 * Start a new Bootstrap-based webiste project from scratch
@@ -38,7 +38,7 @@
 
   ![](images/part1s2e.png)
 
-  >We call this kind of template 'boilerplate' because it is very generic. Just about every boostrap project starts out this way. It's like the metal label you find on your hot water heater. They are pretty much *always* the same regardless of who makes the water heater.
+  >We call this kind of template 'boilerplate' because it is very generic. Just about every bootstrap project starts out this way. It's like the metal label you find on your hot water heater. They are pretty much *always* the same regardless of who makes the water heater.
 
 **3. Debug the template code.**  
   * Preview your new `index.html` file. It will look like this:
