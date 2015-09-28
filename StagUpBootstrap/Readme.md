@@ -4,7 +4,7 @@
 The tutorial flows in 10 parts:
 * [Preliminaries](Preliminaries.md)
 * [Part 1: Setup](Part1.md)
-* Part 2: Layout, Sectioning, and Grids
+* [Part 2: Layout, Sectioning, and Grids](Part2.md)
 * Part 3: Navbar, Menus, and Content Sections
 * Part 4: Typography and Buttons
 * Part 5: Helpers and Images
