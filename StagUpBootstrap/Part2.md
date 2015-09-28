@@ -165,7 +165,7 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
 
   >Note that `container-fluid` is a `class` instead of an `id`. That's so we can reuse it if our page has several sections that don't share the same grid.
 
-  * Add a `row` class to the `page-header`, `feature-panel`, and `page-footer` elements. Leave the `main-content` and `sidebar-content` alone for now. You can specify as many classes you like for any given HTML element; just make sure to separate the class names with spaces. (That's why class names can't have spaces in them, by the way.)
+* Add a `row` class to the `page-header`, `feature-panel`, and `page-footer` elements. Leave the `main-content` and `sidebar-content` alone for now. You can specify as many classes you like for any given HTML element; just make sure to separate the class names with spaces. (That's why class names can't have spaces in them, by the way.)
   ```html
     <div class="container-fluid">
       <header class="page-header row">
@@ -186,7 +186,7 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
     </div>
   ```
 
-  * Because the `main` and the `aside` appear on the same row in our wireframe, we'll need to wrap them togther inside a `div` like this:
+* Because the `main` and the `aside` appear on the same row in our wireframe, we'll need to wrap them togther inside a `div` like this:
   ```html
     <div class="row">
       <main class="main-content">
@@ -198,10 +198,10 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
     </div>
   ```
 
-  * The final rule is that elements on the same row has to specify how wide they each want to be. Bootstrap does this using "column" classes that work like the 'colspan' attribute of a table cell. Each row of a Bootstrap grid is divided into twelve equal-width columns with 15px padding to provide some whitespace. Each element on the row then just has to say how many columns it wants. If they elements on a row altogether ask for more than 12 columns, then the extra elements wrap (drop) to the next line.
+* The final rule is that elements on the same row has to specify how wide they each want to be. Bootstrap does this using "column" classes that work like the 'colspan' attribute of a table cell. Each row of a Bootstrap grid is divided into twelve equal-width columns with 15px padding to provide some whitespace. Each element on the row then just has to say how many columns it wants. If they elements on a row altogether ask for more than 12 columns, then the extra elements wrap (drop) to the next line.
     > Why 12 columns? Because 12 is divisible by 2, 3, 4, and 6.
 
-  * Add a `col-sm-9` class to the `main` and a `col-sm-3` class to the `aside`. The other rows don't require any column classes.
+    Add a `col-sm-9` class to the `main` and a `col-sm-3` class to the `aside`. The other rows don't require any column classes.
     ```html
     <main class="main-content col-sm-9">
       Main content sections
