@@ -30,7 +30,7 @@
   >The diagram is displayed in the center panel and is completely editable with assitance from the panels on either side. The left panel displays shapes you can drag onto the diagram. The right panel allows you to set formatting options for the currently selected shape. Shapes can be resized in the usual way by dragging a the handles on the corners.
 
   * Take some time clicking around to see how the wireframe was created.
-  >You'll see that the same shape was used over and over again, a box with crossed wires connecting the corners. These are used as a placeholder for the actual shape. There might also be gray text label across the top used to say what the box represents. Black text is used as placeholder content, to show very approximately where the content would be placed on the page. There are also a few simple lines and bits of text used to indicate menus.  
+  >You'll see that the same shape was used over and over again, a box with crossed wires connecting the corners. These are used as placeholder for the actual shapes. There might also be gray text label across the top used to say what the box represents. Black text is used as placeholder content, to show very approximately where the content would be placed on the page. There are also a few simple lines and bits of text used to indicate menus.  
 
   > **Unfortunately, the actual wireframe box shape is not among the shapes in the left panel. We'll see in a minute how to create our own.**
 
@@ -53,7 +53,7 @@
 
     ![](images/part2s1h.png)
 
-> **Believe it or not, that is all you really need to do to create a wireframe. Just add some icon placeholders with labels to indicate the relevant areas of your layout. Perhaps add extra text and simple shapes to represent other essential elements of your layout. **  
+> **Believe it or not, that is all you really need to do to create a wireframe. Just add some icon placeholders with labels to indicate the relevant areas of your layout. Perhaps add extra text and simple shapes to represent other essential elements of your layout.**  
 
 **2. Analyze the StagUp Wireframe to identify structure.**  
 
@@ -69,12 +69,12 @@
 
   ![](images/part2s2c.png)
 
-  >While nice, the mockup does not actually provide us with much more information about the page structure than the wireframe! It will become useful later on, but for now we can get aways with just the wireframe displaying the regions.
+  >While nice, the mockup does not actually provide us with much more information about the page structure than the wireframe! It will become useful later on, but for now we can get away with just the wireframe displaying the regions.
 
-**3. Edit our HTML to match the wireframe.**
->At this early stage of the design, there is no need yet to get into the specific HTML for creating navbars, panels, etc. Instead, we will content ourselves with defining the regions where these elements will reside.
+**3. Edit the HTML to match the wireframe.**
+>At this early stage of the design, there is no need yet to get into the specific HTML for creating navbars, panels, etc. Instead, we will content ourselves with defining the regions where these elements will eventually reside.
 
->The actual StagUp website uses a slightly more complex set of regions. We'll keep things simple, however, and just use the ones from our wireframe sketch.
+>The actual StagUp website uses a slightly more complex set of regions. We'll keep things simple, however, and just use the ones from our wireframe sketch.  
 >![](images/part2s3a.png)
 >
 
@@ -107,7 +107,7 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
     Featured Events Panel
   </section>
   ```
-  >This is where the main
+  >This section's location at the top of the page makes it the first thinsg users will lock on when they open the page. We're using it to feature upcoming events, with a signup button displayed on the next event.
 
 * Add a `main` section just below that:
   ```html
@@ -136,11 +136,11 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
 ![](images/part2s3b.png)
 
 **4. Add Bootstrap markup and classes.**  
->Now we finally get to some actual Bootstrap code. We're going to making use Bootstrap's [Grid System](http://getbootstrap.com/css/#grid) to layout the regions in a way we can change later without editing the HTML again.
+>Now we finally get to some actual Bootstrap code. We're going to use Bootstrap's [Grid System](http://getbootstrap.com/css/#grid) to lay out the regions in a way we can change later without editing the HTML again.
 
 * Open up the [Bootstrap Grid docs](http://getbootstrap.com/css/#grid) so you can read along as we add the required HTML and CSS.
 
-  As the docs explain pretty well, the Grid System is a structured way to organize your page elements into rows and columns that can adjust automatically for different device widths. To make it work, however, we have to follow the rules spelled out in the docs. For the most part, all we have to do is add some special classes to our existing HTML elements, while in a few cases we will also need to add "wrapper" elements as required by the rules.
+  As the docs explain pretty well, the Grid System is a way to organize your page elements into rows and columns that can adjust automatically for different device widths. To make it work, however, we have to follow the rules spelled out in the docs. For the most part, all we have to do is add some special classes to our existing HTML elements, while in a few cases we will also need to add "wrapper" elements as required by the rules.
 
 * The first rule is that the grid must be inside a `container` or `container-fluid` wrapper. For our purposes, we'll want a `container-fluid` so we don't get white 'sidewalls' on either side of our pages. We'll need to add some extra HTML that wraps a `div` around our existing regions, like this:
   ```html
@@ -186,7 +186,7 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
     </div>
   ```
 
-* Because the `main` and the `aside` appear on the same row in our wireframe, we'll need to wrap them togther inside a `div` like this:
+* Because the `main` and the `aside` appear on the same row in our wireframe, we'll need to wrap them together inside a `div` like this:
   ```html
     <div class="row">
       <main class="main-content">
@@ -198,7 +198,7 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
     </div>
   ```
 
-* The final rule is that elements on the same row has to specify how wide they each want to be. Bootstrap does this using "column" classes that work like the 'colspan' attribute of a table cell. Each row of a Bootstrap grid is divided into twelve equal-width columns with 15px padding to provide some whitespace. Each element on the row then just has to say how many columns it wants. If they elements on a row altogether ask for more than 12 columns, then the extra elements wrap (drop) to the next line.
+* The final rule is that each element on the same row has to specify how wide it wants to be. Bootstrap does this using "column" classes that work like the `colspan` attribute of a table cell. Each row of a Bootstrap grid is divided into twelve equal-width columns with 15px padding to provide some whitespace. Each element on the row then just has to say how many columns it wants. If they elements on a row altogether ask for more than 12 columns, then the extra elements wrap (drop) to the next line.
     > Why 12 columns? Because 12 is divisible by 2, 3, 4, and 6.
 
     Add a `col-sm-9` class to the `main` and a `col-sm-3` class to the `aside`. The other rows don't require any column classes.
