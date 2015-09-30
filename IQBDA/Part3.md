@@ -8,7 +8,9 @@
 **1. Add the new `member.html` page.**
   * Create a blank `member.html` file.
   * Add a navigation link for the `member.html` file to the navbar menus in the `iqbdc.html` and`index.html` files. The link text should be “Become a Member”.
+  
     ![](images/part3s1a.png)
+
   * Near the bottom of the `index.html` file there is a link in the content that has is supposed to refer to the `member.html` file. Update the link to point to the new file and take out the `onclick` attribute that has the javascript popup message.
   * Use the ‘template’ for the member.html file. Follow the same technique we used in Part 2  to reuse the `index.html` code for everything except the main page content.
   * Give the `member.html` a `header` with the headline “Join IQBDA Today!”. (Look at how we did that in Part 2. Be consistent!)
