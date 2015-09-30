@@ -5,7 +5,7 @@ The tutorials flow in seven parts:
 * [Preliminaries](Preliminaries.md)
 * [Part 1: HTML Basics](Part1.md)
 * [Part 2: Templates and Tables](Part2.md)
-* Part 3: Your First Form
+* [Part 3: Your First Form](Part3.md)
 * Part 4: Basic Styling with CSS
 * Part 5: Menu Bars and Page Layout
 * Part 6: Final Touches
