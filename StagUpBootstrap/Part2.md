@@ -220,4 +220,4 @@ Delete this line (and only this line). We'll be replacing it with our new wirefr
     >Note: There is 15px margin to the left of the first column on a row and 15px margin to the right of the last column on a row. This can cause elements to not align correctly in some mobile layouts, but is easily correctable with a few lines of CSS.
 
 **5. Save your work.**  
-Commit to Git. Use the commit summary 'Completed part 1'. Push (sync) as usual to GitHub.
+Commit to Git. Use the commit summary 'Completed part 2'. Push (sync) as usual to GitHub.
