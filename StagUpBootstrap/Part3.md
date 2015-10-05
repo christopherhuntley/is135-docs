@@ -58,9 +58,11 @@ Your `index.html` should look exactly like this:
 
 **2. Learn about Navbars**
 
-  * Go to the section on [Navbars](http://getbootstrap.com/components/#navbar) in the Bootstrap docs. Scroll down to the 'Default Navbar', which has a nice example designed to show just about every possible configuration option.  
+  * Go to the section on [Navbars](http://getbootstrap.com/components/#navbar) in the Bootstrap docs. Take **5 minutes** (and no cheating) to read through the different options.
+
+  * Scroll back to the 'Default Navbar', which has a nice example designed to show just about every possible configuration option.  
   >Fortunately, we won't need anything this elaborate for our project.
-  
+
   * Use the `copy` button to the right of the example HTML code to add it to your clipboard.
   * In a new Incognito / Private Window, open up a blank [Liveweave snippet](http://liveweave.com/). Then select 'Bootstrap' from the Libraries menu.
     > Why Incognito? So that Liveweave starts from scratch instead of pulling up an old weave.
@@ -115,6 +117,8 @@ Your `index.html` should look exactly like this:
 
   * The link is actually for branding. It's customary for the logo on a website to be clickable, returning the user back to the home page.
 
+    >You can [replace the link text with a logo image](http://getbootstrap.com/components/#navbar-brand-image).
+
   * [Comment out](http://www.w3schools.com/html/html_comments.asp) the `button` as shown below. (Just select the `button` element -- all of it -- and then select `Toggle Comments` from the `Edit` menu.)
   ```html
     <div class="container-fluid">
@@ -151,7 +155,7 @@ Your `index.html` should look exactly like this:
 
   * Use the commenting/uncommenting technique to explore the `div` just below the comment `<!-- Collect the nav links, forms, and other content for toggling -->`.
 
-    The contents are really just a unordered list, a form, and another unordered list. The lists each contain a set of links (one `a` per `li`), with a nested sublist used for a `dropdown` menu. The form in between is also pretty standard. The classes `navbar-left` and `navbar-right` are then used to for aligning the three parts.  
+    The contents are really just a unordered list, a form, and another unordered list. The lists each contain a set of links (one `a` per `li`), with a nested sublist used for a `dropdown` menu. The form in between is also pretty standard. [The classes `navbar-left` and `navbar-right` are then used to for aligning the three parts](http://getbootstrap.com/components/#navbar-component-alignment).  
 
 **3. Create your own Bootstrap Navbar.**
   * Open your `index.html` for editing. We're going to build our own navbar, starting with the example code.
