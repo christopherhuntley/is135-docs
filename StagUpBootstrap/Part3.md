@@ -136,7 +136,7 @@ Your `index.html` should look exactly like this:
 
   ![](images/part3s2d.png)
 
-  Uncomment the `button` (by removing the `<!--` and `-->` using `Toggle Comment` again) so the button reappears.
+  Uncomment the `button` (by removing the `<!--` and `-->` or using `Toggle Comment` again) so the button reappears.
   * Comment out the link.
   ```html
   <!-- <a class="navbar-brand" href="#">Brand</a> -->
