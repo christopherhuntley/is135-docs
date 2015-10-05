@@ -72,7 +72,7 @@ Your `index.html` should look exactly like this:
 
     > ![](images/part3s2b.png)
 
-    > Let's see what we can learn just by commenting out various parts of the HTML.
+    > So, here we have created a short, isolated snippet that we can edit without affecting our real code. Next we'll see how to do it in Atom using a temporary file and debugging comments.
   * In Atom, create a new file called `navbar.html` inside your project folder. Copy the full HTML from Liveweave into the new file.
   > We're going to use it take apart the example navbar code in Atom to see how it works. You can close Liveweave for now.
 
@@ -85,7 +85,7 @@ Your `index.html` should look exactly like this:
       </div>
   </nav>
   ```
-  As you can see, it has two classes, `navbar` and `navbar-default`, that identify it to Bootstrap. The `navbar` class is generic, used to pick up styling use for all kinds of navbars. The `navbar-default` class is more specific, and tells Bootstrap to apply the default styling. The `div` nested inside is for layout purposes, with a `container-fluid` class used to make the navbar extend edge to edge of the page.
+  As you can see, it has two classes, `navbar` and `navbar-default`, that identify it to Bootstrap. The `navbar` class is generic, used to pick up styling for all kinds of navbars. The `navbar-default` class is more specific, and tells Bootstrap to apply the default 'gray background and black text' styling. The `div` nested inside is for layout purposes, with a `container-fluid` class used to make the navbar extend edge to edge of the page.
   > We also used `container-fluid` in Part 2.
 
   * Next is the `navbar-header`, which contains a `button` and a link (`a`).   
@@ -104,13 +104,13 @@ Your `index.html` should look exactly like this:
       ...
     </div>
   ```
-  The `navbar-header` class tell Bootstrap that the code inside is what is displayed by default on mobile devices.
+  The `navbar-header` class tells Bootstrap that the code inside is what is displayed by default on mobile devices.
 
   ![](images/part3s2c.png)
 
   > Why is mobile layout the default? Bootstrap is 'mobile-first,' of course.
 
-  * The `button` element is for the "hamburger" menu on the right. It has two classes, `navbar-toggle` and `collapsed`, that say what kind of button it is (i.e., a 'toggle' switch) and what the initial state of menu is ('collapsed', with just the button showing). The `button` also has two 'data' attributes, `data-toggle` and `data-target`, that are used by Javascript to control how the menu works. Just inside the button are four `span` elements, the last three of which are actually the three horizontal lines that form the button's label. The first span is marked as `sr-only`, which means that it would be read aloud by screen-reader software but is invisible to everbody else.
+  * The `button` element is for the "hamburger" menu on the right. It has two classes, `navbar-toggle` and `collapsed`, that say what kind of button it is (i.e., a 'toggle' switch) and what the initial state of menu is ('collapsed', with just the button showing). The `button` also has two 'data' attributes, `data-toggle` and `data-target`, that are used by Javascript to control how the menu works. Just inside the button are four `span` elements, the last three of which form the three horizontal lines on the button's label. The first span is marked as `sr-only`, which means that it would be read aloud by screen-reader software but is invisible to everbody else.
 
   * The link is actually for branding. It's customary for the logo on a website to be clickable, returning the user back to the home page.
 
