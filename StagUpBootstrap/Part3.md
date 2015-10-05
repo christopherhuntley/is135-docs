@@ -58,8 +58,9 @@ Your `index.html` should look exactly like this:
 
 **2. Learn about Navbars**
 
-  * Go to the section on [Navbars](http://getbootstrap.com/components/#navbar) in the Bootstrap docs. Scroll down to the 'Default Navbar', which has a nice example designed to show just about every possible configuration option.
+  * Go to the section on [Navbars](http://getbootstrap.com/components/#navbar) in the Bootstrap docs. Scroll down to the 'Default Navbar', which has a nice example designed to show just about every possible configuration option.  
   >Fortunately, we won't need anything this elaborate for our project.
+  
   * Use the `copy` button to the right of the example HTML code to add it to your clipboard.
   * In a new Incognito / Private Window, open up a blank [Liveweave snippet](http://liveweave.com/). Then select 'Bootstrap' from the Libraries menu.
     > Why Incognito? So that Liveweave starts from scratch instead of pulling up an old weave.
