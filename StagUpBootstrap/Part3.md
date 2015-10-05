@@ -172,7 +172,7 @@ Your `index.html` should look exactly like this:
 
     ![](images/part3s3a.png)
 
-    >That actually worked! However, before we go on let's deal with the white strip above the Navbar. We don't want that.
+    >That actually worked! However, before we go on let's deal with the white strip above the navbar. We don't want that.
 
     >The white strip is caused by the `page-header` class applied to the `header`. Bootstrap includes special styling for page headers, applying lots of white space to keep them separate from the rest of the page.
 
