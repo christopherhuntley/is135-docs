@@ -153,7 +153,7 @@ Your `index.html` should look exactly like this:
     The contents are really just a unordered list, a form, and another unordered list. The lists each contain a set of links (one `a` per `li`), with a nested sublist used for a `dropdown` menu. The form in between is also pretty standard. The classes `navbar-left` and `navbar-right` are then used to for aligning the three parts.  
 
 **3. Create your own Bootstrap Navbar.**
-  * Open your `index.html` for editing. We're going to build out own navbar, starting with the example.
+  * Open your `index.html` for editing. We're going to build our own navbar, starting with the example code.
   * Inside the `header` add two HTML comments to indicate where our navbar starts and ends.
   ```html
   <header class="page-header row">
@@ -162,7 +162,7 @@ Your `index.html` should look exactly like this:
     <!-- Navbar End -->
   </header>
   ```
-  * Back in your web browser, copy the "Default Navbar" HTML from the Bootstrap docs. Paste it between your comments.
+  * Copy the "Default Navbar" HTML code again from the Bootstrap docs. Paste it between your comments in Atom.
 
     ![](images/part3s3a.png)
 
