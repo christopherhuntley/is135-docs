@@ -76,7 +76,8 @@ Your `index.html` should look exactly like this:
     > ![](images/part3s2b.png)
 
     > So, here we have created a short, isolated snippet that we can edit without affecting our real code. Next we'll see how to do it in Atom using a temporary file and debugging comments.
-  * In Atom, create a new file called `navbar.html` inside your project folder. Copy the full HTML from Liveweave into the new file.
+
+  * In Atom, create a new file called `navbar.html` inside your project folder. Copy the full HTML from Liveweave into the new file. Save the file and then open the HTML Preview panel.
   > We're going to use it take apart the example navbar code in Atom to see how it works. You can close Liveweave for now.
 
   * We'll start from the top, with the `nav`.
