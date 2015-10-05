@@ -76,7 +76,7 @@ Your `index.html` should look exactly like this:
   * In Atom, create a new file called `navbar.html` inside your project folder. Copy the full HTML from Liveweave into the new file.
   > We're going to use it take apart the example navbar code in Atom to see how it works. You can close Liveweave for now.
 
-  * We'll start from the top, with the `nav` at the top.
+  * We'll start from the top, with the `nav`.
 
   ```html
   <nav class="navbar navbar-default">
