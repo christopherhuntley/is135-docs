@@ -7,7 +7,7 @@
 **1. Check your work.**  
 Your `index.html` should look exactly like this:
 
-```html5
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -198,6 +198,8 @@ Your `index.html` should look exactly like this:
   ![](images/part3s3d.png)
 
   > How did we know to do that? By reading the docs, of course. We just used  Bootstrap's [Inverted navbar](http://getbootstrap.com/components/#navbar-inverted) color scheme.
+
+  *
 
   * Now that we are done with the navbar, delete the `navbar.html` file so it doesn't polute our Git repo.
 
