@@ -210,8 +210,9 @@ In fact, why not copy and paste to be sure?
 </html>
 ```
 **3. Commit, push, and review changes.**
-  * Commit your changes using the summary comment "Refreshed HTML in part 4."
+  * Commit your changes using the summary comment "Refreshed HTML in part 4."  
     >Don't have any changes? Then make sure you saved your files in Atom. You may also be lucky enough to have typed in your code exactly like the solution, but that's very unlikely.
+    
   * Push to GitHub.
   * Open your GitHub IQBDA repo in your browser. Click on the "commits" link at the top of the page.
 
