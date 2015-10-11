@@ -9,7 +9,7 @@
 **1. Make sure your GitHub is up to date.**  
 Look for any uncommitted changes in GitHub Desktop. If you find any, then commit and push whatever you've currently got to GitHub.
 
-**2. Refresh your HTML.**
+**2. Refresh your HTML.**  
 Make sure your HTML matches the following exactly.
 In fact, why not copy and paste to be sure?
 
@@ -219,7 +219,7 @@ In fact, why not copy and paste to be sure?
 
   > You will see a list of commits in reverse chronological order, with the most recent at the top.
 
-  * Click the most recent commit. GitHub will a "diff" (for difference) between the commit and the version before it.
+  * Click the most recent commit. GitHub will display a "diff" (for difference) between the commit and the version before it. The lines in red were removed, while the lines in green were added. An edit to an existing line is displayed as adding the line (with the edited text) followed by a removing a line (with the old text).
     >Note what changed in each file. Those are places where you may have missed something when you were doing the assignment yourself. Now we can safely continue on with CSS knowing that we are using the same HTML code.
 
 **4. Use CSS to override the default styling.**  
@@ -227,28 +227,29 @@ In fact, why not copy and paste to be sure?
   Create a new CSS file called `base.css`. This is where we’re going to put all our basic styling for the site.
     > The HTML refresh from step 2 included the `link` needed to load the `base.css` external stylesheet.
 
-  Add style rules to the `base.css` file that meet the following specifications:  
+  Add style rules to the `base.css` file that meet the following specifications, which we'll pretend come from an art director with no web design experience:  
 
-  * Masthead Text: Georgia/Times/serif and italics, with the “IQBDA” in 3em bold type and the "The International ..." in 1.5em semi-bold type  
-  * Page Title Text: Georgia/Times/serif in 1.8em bold type  
-  * Sub-heading Text: Georgia/Times/serif in 1.5em semi bold type  
-  * All other text: Verdana/Helvetica/Arial/sans serif in 1em regular weight type  
+  * **Masthead Text:** Georgia/Times/serif and italics, with the “IQBDA” in 3em bold type and the "The International ..." in 1.5em semi-bold type  
+  * **Page Title Text:** Georgia/Times/serif in 1.8em bold type  
+  * **Sub-heading Text:** Georgia/Times/serif in 1.5em semi bold type  
+  * **All other text:** Verdana/Helvetica/Arial/sans serif in 1em regular weight type  
 
 Tips:
   * You will need to use **descendant selectors** to get the headline text to work.
   * Semibold is `bolder` than normal text but not fully `bold`; try using the `font` shortcut property to cut down on the number of declarations.
   * If you don’t know how to do something, just ask! If somebody needs help, then provide whatever help you can. This is not a game, so there is no reason not to help your classmates understand how to do things.
+  * Some things just can't be done with CSS. Know when to give up and ask for direction given what you can do.
 
 When you're finished the preview should look this:
 
   ![](images/part4s4a.png)
 
 **5. Add special styling to `iqbdc.html`.**
-* Add a `style` element to the head of the `iqbdc.html` file.
-  > You will need to refer to your textbook to see how to do that properly.
+* Add a `style` element to the `head` of the `iqbdc.html` file.
+  > You will need to refer to your textbook to see how to do that properly. It's an embedded stylesheet.
 
-* Add two rules, one to left-align the column headers of the table and then another rule that changes the `color` of any `h1` elements inside `#page-title` to `red`.
-  >**Important: do not copy any style rules from your base.css file. The idea is to let the embedded stylesheet override the styles in `base.css` through cascading. You are only adding *two* rules.**  
+* Add two rule to the new `style` element, one to left-align the column headers of the table and then another rule that changes the `color` of any `h1` elements inside `#page-title` to `red`.
+  >**Important: do not copy any style rules from your `base.css` file. The idea is to let the embedded stylesheet override the styles in `base.css` through cascading. You are only adding *two* rules.**  
 
 * When finished you should see the following in your `iqbdc.html` preview:
 
