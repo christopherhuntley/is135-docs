@@ -212,7 +212,7 @@ In fact, why not copy and paste to be sure?
 **3. Commit, push, and review changes.**
   * Commit your changes using the summary comment "Refreshed HTML in part 4."  
     >Don't have any changes? Then make sure you saved your files in Atom. You may also be lucky enough to have typed in your code exactly like the solution, but that's very unlikely.
-    
+
   * Push to GitHub.
   * Open your GitHub IQBDA repo in your browser. Click on the "commits" link at the top of the page.
 
@@ -220,7 +220,7 @@ In fact, why not copy and paste to be sure?
 
   > You will see a list of commits in reverse chronological order, with the most recent at the top.
 
-  * Click the most recent commit. GitHub will display a "diff" (for difference) between the commit and the version before it. The lines in red were removed, while the lines in green were added. An edit to an existing line is displayed as adding the line (with the edited text) followed by a removing a line (with the old text).
+  * Click the most recent commit. GitHub will display a "diff" (for difference) between the commit and the version before it. The lines in red were removed, while the lines in green were added. An edit to an existing line is displayed as adding a line (with the edited text) followed by a removing a line (with the old text).
     >Note what changed in each file. Those are places where you may have missed something when you were doing the assignment yourself. Now we can safely continue on with CSS knowing that we are using the same HTML code.
 
 **4. Use CSS to override the default styling.**  
