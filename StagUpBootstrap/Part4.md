@@ -80,7 +80,7 @@ Here's the relevant section on our Draw.io mockup:
   ![](images/part4s3b.png)
 
 **4. Populate the `.featured-panel` content.**  
-In our mockup `.featured-events-top` has a full-width background image (cyan text) and a semi-translucent white text box (green text). Below it, the `featured-events-bottom` has 4 equally-spaced areas for the other featured events (purple divider lines).
+In our mockup `.featured-events-top` has a full-width background image (cyan text) and a semi-translucent white text box (green text). Below it, the `featured-events-bottom` has 4 equally-spaced areas for the other featured events (purple divider lines).  
   ![](images/part4s4a.png)
 
 The background image will added with just CSS, but the others will require some HTML first.
