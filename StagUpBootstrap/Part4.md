@@ -509,76 +509,76 @@ We'll now apply these principles to the text elements in our featured events pan
 
 * The titles for the main event also look slightly out of proportion. The event date and location seem to be a little big compared with the title. Let's shrink them down from 30px to 27px.
 
-```css
-/*---- Feature-Panel Styling ----*/
-.feature-panel h1, .feature-panel h2, .feature-panel h3 {
-  margin:0 0 4px;
-}
-.featured-events-top {
-  background-image: url(../images/FeaturePhoto.jpg);
-  background-size: cover;
-  background-position: center center;
-  padding: 15px;
-}
-.featured-text-container {
-  background-color: rgba(100%, 100%, 100%, 0.8);
-  padding: 15px;
-}
-.featured-events-top h2 {
-  font-size: 27px;
-}
-.featured-events-bottom {
-  padding: 15px;
-}
-.featured-events-bottom h1 {
-  font-size: 30px;
-}
-.featured-events-bottom h2 {
-  font-size: 24px;
-}
-.featured-events-bottom h3 {
-  font-size:20px;
-}
-```
+  ```css
+  /*---- Feature-Panel Styling ----*/
+  .feature-panel h1, .feature-panel h2, .feature-panel h3 {
+    margin:0 0 4px;
+  }
+  .featured-events-top {
+    background-image: url(../images/FeaturePhoto.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+  }
+  .featured-text-container {
+    background-color: rgba(100%, 100%, 100%, 0.8);
+    padding: 15px;
+  }
+  .featured-events-top h2 {
+    font-size: 27px;
+  }
+  .featured-events-bottom {
+    padding: 15px;
+  }
+  .featured-events-bottom h1 {
+    font-size: 30px;
+  }
+  .featured-events-bottom h2 {
+    font-size: 24px;
+  }
+  .featured-events-bottom h3 {
+    font-size:20px;
+  }
+  ```
 
-> Having trouble finding the new rule? It's in the middle, just above the ones for the bottom part of the panel.
+  > Having trouble finding the new rule? It's in the middle, just above the ones for the bottom part of the panel.
 
 * Lastly, let's make the taglines (the `h3` elements) stand out more by coloring them to match the titles. Because we want to apply the red to both top and bottom, we'll use a more general rule near the top.
 
-```css
-/*---- Feature-Panel Styling ----*/
-.feature-panel h1, .feature-panel h2, .feature-panel h3 {
-  margin:0 0 4px;
-}
-.feature-panel h3 {
-  color: darkred;
-}
-.featured-events-top {
-  background-image: url(../images/FeaturePhoto.jpg);
-  background-size: cover;
-  background-position: center center;
-  padding: 15px;
-}
-.featured-text-container {
-  background-color: rgba(100%, 100%, 100%, 0.8);
-  padding: 15px;
-}
-.featured-events-top h2 {
-  font-size: 27px;
-}
-.featured-events-bottom {
-  padding: 15px;
-}
-.featured-events-bottom h1 {
-  font-size: 30px;
-}
-.featured-events-bottom h2 {
-  font-size: 24px;
-}
-.featured-events-bottom h3 {
-  font-size:20px;
-}
-```
+  ```css
+  /*---- Feature-Panel Styling ----*/
+  .feature-panel h1, .feature-panel h2, .feature-panel h3 {
+    margin:0 0 4px;
+  }
+  .feature-panel h3 {
+    color: darkred;
+  }
+  .featured-events-top {
+    background-image: url(../images/FeaturePhoto.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+  }
+  .featured-text-container {
+    background-color: rgba(100%, 100%, 100%, 0.8);
+    padding: 15px;
+  }
+  .featured-events-top h2 {
+    font-size: 27px;
+  }
+  .featured-events-bottom {
+    padding: 15px;
+  }
+  .featured-events-bottom h1 {
+    font-size: 30px;
+  }
+  .featured-events-bottom h2 {
+    font-size: 24px;
+  }
+  .featured-events-bottom h3 {
+    font-size:20px;
+  }
+  ```
 
 **10. Save your work.**
 Commit to Git. Use the commit summary 'Completed part 4'. Push (sync) as usual to GitHub.
