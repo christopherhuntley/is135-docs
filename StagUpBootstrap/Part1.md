@@ -47,7 +47,7 @@
 
   Unfortunately, there is a bug in our code (yes, already) preventing Bootstrap from loading correctly.
 
-  >We can tell there is a problem because the font is wrong. It's supposed to look like the font used on the on the Bootstrap website. Details like this matter. Imagine if we'd done a bunch of work and could not figure out why none of our Bootstrap code seemed to work? It's always better to look for and fix bugs as soon as you can.
+  >We can tell there is a problem because the font is wrong. It's supposed to look like the font used on the Bootstrap website. Details like this matter. Imagine if we'd done a bunch of work and could not figure out why none of our Bootstrap code seemed to work? It's always better to look for and fix bugs as soon as you can.
 
   The problem is that the boilerplate code assumed that we had already downloaded the Bootstrap files and organized our folders like the examples. So, the HTML is looking for files that don't exist.
 

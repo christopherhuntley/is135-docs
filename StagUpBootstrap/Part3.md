@@ -205,7 +205,7 @@ Your `index.html` should look exactly like this:
 
   > How did we know to do that? By reading the docs, of course. We just used  Bootstrap's [Inverted navbar](http://getbootstrap.com/components/#navbar-inverted) color scheme.
 
-  * Now that we are done with the navbar, delete the `navbar.html` file so it doesn't polute our Git repo.
+  * Now that we are done with the navbar, delete the `navbar.html` file so it doesn't pollute our Git repo.
 
 **4. Save your work.**
 Commit to Git. Use the commit summary 'Completed part 3'. Push (sync) as usual to GitHub.
