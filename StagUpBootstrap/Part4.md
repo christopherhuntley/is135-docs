@@ -228,7 +228,7 @@ to provide a visual hierarchy to the text.
 We finally get to use the `styles.css` stylesheet we created in step 1. We'll use it to add the background image and to override some of the Bootstrap text styling.
 
 * In the head of your `index.html` file, add a link to your `styles.css` file *just after* the link to Bootstrap's css file:
-```html  
+  ```html  
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
