@@ -150,7 +150,7 @@ The background image will added with just CSS, but the others will require some 
 
     > Each of the classes shown has a purpose:  
     > * `.featured-text-container` allows us to select the element in our custom CSS.
-    > * `.col-sm-8` and `col-md-6` indicate the width of the box (in grid columns) at various sizes. The width is 12 columns on mobile (the default), 8 columns on small tablets (`.col-sm-8`) and 6 columns on larer tablets and desktops (`col-md-6`).
+    > * `.col-sm-8` and `col-md-6` indicate the width of the box (in grid columns) at various sizes. The width is 12 columns on mobile (the default), 8 columns on small tablets (`.col-sm-8`) and 6 columns on larger tablets and desktops (`col-md-6`).
     > * `.col-sm-offset-4` and `.col-md-offset-6` push the box to the right to fit the device width.  `.col-sm-offset-4` pushes it 4 columns on small tablets, while `.col-md-offset-6` pushes it 6 columns for larger tablets and desktops.
 
   At medium browser widths, the page looks like this:
