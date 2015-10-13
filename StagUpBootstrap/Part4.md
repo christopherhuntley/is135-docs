@@ -274,7 +274,7 @@ of the page they are styling. We'll add more groups of rules in another session.
   we will discuss [BEM](https://css-tricks.com/bem-101), which provides a standard way of
   keeping order and avoiding redundancy in CSS files.
 
-**6. Define the Basic Styling rules.**  
+**7. Define the Basic Styling rules.**  
 The Basic Styling section of our stylesheet is where we define things like fonts and
 colors used throughout the document, whitespace above and below paragraphs, etc. We'll leave most of the
 default Bootstrap styling alone for now, but we should do something about the black `h1` headlines and blue button.
@@ -304,7 +304,7 @@ h1 {
   >Atom's preview panel won't likely update to show the color. It's probably best to
   keep the document open in a browser so you can refresh it after each save.
 
-**7. Fix the Logo Placement in the Navbar**  
+**8. Fix the Logo Placement in the Navbar**  
 The problem with the logo is that Bootstrap assumes the `.navbar-brand` link is no more than 20px tall.
 So, it inserts 15px padding (whitespace) above and below it to keep it approximately in line with the menu links. However, since our logo is 38px tall and the navbar is only 50px tall, there is not enough room for the padding.
 
