@@ -191,7 +191,7 @@ to provide a visual hierarchy to the text.
     > The link will turn into a blue button:
     ![](images/part4s5c.png)
 
-    ** Now add `btn-lg` and `btn-block` classes to make the button *really* stand out.**
+    **Now add `btn-lg` and `btn-block` classes to make the button *really* stand out.**
     ![](images/part4s5d.png)
 
 * Finally, for the `.featured-events-bottom` items, we just need to do a little grid-work.
