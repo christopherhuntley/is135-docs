@@ -220,7 +220,7 @@ In fact, why not copy and paste to be sure?
 
   > You will see a list of commits in reverse chronological order, with the most recent at the top.
 
-  * Click the most recent commit. GitHub will display a "diff" (for difference) between the commit and the version before it. The lines in red were removed, while the lines in green were added. An edit to an existing line is displayed as adding a line (with the edited text) followed by a removing a line (with the old text).
+  * Click the most recent commit. GitHub will display a "diff" (difference) between the commit and the version before it. The lines in red were removed, while the lines in green were added. An edit to an existing line is displayed as adding a line (with the edited text) followed by a removing a line (with the old text).
     >Note what changed in each file. Those are places where you may have missed something when you were doing the assignment yourself. Now we can safely continue on with CSS knowing that we are using the same HTML code.
 
 **4. Use CSS to override the default styling.**  
@@ -255,7 +255,6 @@ When you're finished the preview should look this:
 * When finished you should see the following in your `iqbdc.html` preview:
 
   ![](images/part4s5a.png)
-
 
 **6. Save your work.**  
 Commit and sync your changes to GitHub. Use the commit summary 'Part 4 complete'.
