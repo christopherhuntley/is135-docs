@@ -1,4 +1,4 @@
-# StagUp Bootstrap, Part 4: Images, Typography, and Buttons
+# StagUp Bootstrap, Part 4: Backgrounds, Typography, and Buttons
 
 ## Objectives
 * Organize reusable assets (css files, artwork, javascript libraries)
@@ -8,18 +8,20 @@
 * Create a call to action button
 
 **1. Create an `assets` hierarchy.**  
-  Thanks in part to the widespread adoption of [Content Management Systems (CMS)](https://en.wikipedia.org/wiki/Content_management_system) like [Wordpress](http://wordpress.org) and [Drupal](http://drupal.org) *that write HTML for us on demand*, it has become customary to think of the layout and styling of a website as reusable from one site to the next. That allows a designer to create a "starter" set of layouts and styles and then adapt them for use with nearly every client. You have actually seen this on the Bootstrap website, which features a set of [example starter designs on its Getting Started page](http://getbootstrap.com/getting-started/#examples).
+  Thanks in part to the widespread adoption of [Content Management Systems (CMS)](https://en.wikipedia.org/wiki/Content_management_system) like [Wordpress](http://wordpress.org) and [Drupal](http://drupal.org) *that write HTML for us on demand*, it has become customary to think of layout and styling as reusable from one site to the next. That allows a designer to create a "starter" set of layouts and styles and then adapt them for use with nearly every client. You have actually seen this on the Bootstrap website, which features a set of [example starter designs on its Getting Started page](http://getbootstrap.com/getting-started/#examples).
 
   Such reusable designs are called "themes" because they define the *overall look and behavior of a site* without preventing the designer from customizing to suit the specific needs of a given site. Themes are treated like software with releases, bug fixes, etc. and should be separated from the rest of the site. That way we can replace them with newer versions when they are released without accidentally modifying our custom code.
 
   Even if we are not using a CMS or a prebuilt theme, it's best practice to separate our HTML documents from the artwork, stylesheets, and javascript. That way if we decide to go the CMS route later on we can do so easily.
 * Open your project in Atom.
 * Create a new folder called `assets`.
-* Inside the `assets` folder, create three subfolders: `images`, `css`, and `js`.
+* Inside the `assets` folder, create three subfolders: `images`, `css`, and `js`.  
   > The `images` and `css` folders are self-explanatory. The `js` folder is for any Javascript libraries we might want to add later.
-* Within the `css` folder create a blank file named `styles.css`.
+
+* Within the `css` folder create a blank file named `styles.css`.  
   > This is where we will put our custom overrides to Boostrap's default styling.
-* In your browser, right-click on each of the following images to save them as new files in your `assets/images` folder:
+
+* In your browser, right-click on each of the following images to save them as new files in your `assets/images` folder (and do not change the filenames):  
 
   ![](images/assets/FairfieldStagUp.png)
 
@@ -29,16 +31,15 @@
 * Scroll down to the `.navbar-brand` link within your `index.html` file.
   >Note that we are now using CSS selectors to refer to HTML elements. So, `.navbar-brand` refers to an element with `class=navbar-brand`, while `#navbar-brand` would refer to an element with `id=navbar-brand`.
 
-  >While there is only one element with `class=navbar-brand` in our code (and thus we could have used an id), Bootstrap always uses a classes for CSS selectors and ids for selecting elements in Javascript. It's a subtle distinction; just know that Bootstrap always uses class selectors in its CSS files.  
+  >While there is only one element with `class=navbar-brand` in our code (and thus we could have used an id), Bootstrap always uses classes for CSS selectors and ids for selecting elements in Javascript. It's a subtle distinction; just know that Bootstrap always uses class selectors in its CSS files.  
 
 * Follow the [instructions on the Bootstrap website](http://getbootstrap.com/components/#navbar-brand-image) to replace the text "Fairfield StagUp" with the `FairfieldStagUp.png` image from your assets folder.
   > If the image looks broken, then either you didn't download the image to the right folder or your `src` URL is incorrect (likely because of a typo or file path).
 
-* The logo should appear in the navbar (good!) but is vertically mis-aligned with the menu links.
+* The logo should appear in the navbar (good!) but is vertically misaligned with the menu links.
   ![](images/part4s2a.png)
 
-  The problem is [right here](http://getbootstrap.com/components/#navbar-brand-image), quoted from the Bootstrap website:
-  > Since the `.navbar-brand` has its own padding and height, you may need to override some CSS depending on your image.
+  The problem is [right here](http://getbootstrap.com/components/#navbar-brand-image), quoted from the Bootstrap website: "Since the `.navbar-brand` has its own padding and height, you may need to override some CSS depending on your image."  
 
   Basically, the logo image is taller than the "Fairfield StagUp" text we just replaced. We're going to need to override some CSS to fix it, something we'll come back to later.
 
@@ -52,17 +53,18 @@ Here's the relevant section on our Draw.io mockup:
 * Remove the `row` class from the `.feature-panel`.  
   >We're about to replace it with two rows.
 
-* Insert two divs as shown:
-```html
-  <section class="feature-panel">
-    <div class="featured-events-top row">
+* Insert two divs as shown:  
+  ```html
+    <section class="feature-panel">
+      <div class="featured-events-top row">
 
-    </div>
-    <div class="featured-events-bottom row">
+      </div>
+      <div class="featured-events-bottom row">
 
-    </div>
-  </section>
-```
+      </div>
+    </section>
+  ```
+
   > The top div is for the highlighted event with the background image. The bottom div is for the other featured events.
 
 * Just so we can see them in the preview, insert a bit of text into each div. We'll remove the text later on.
@@ -83,7 +85,7 @@ Here's the relevant section on our Draw.io mockup:
 In our mockup `.featured-events-top` has a full-width background image (cyan text) and a semi-translucent white text box (green text). Below it, the `featured-events-bottom` has 4 equally-spaced areas for the other featured events (purple divider lines).  
   ![](images/part4s4a.png)
 
-The background image will added with just CSS, but the others will require some HTML first.
+The background image will be added with just CSS, but the others will require some HTML first.
 
 * Inside the `.featured-events-top` replace the placeholder text with a new div for the white box as shown:
 ```html
@@ -212,17 +214,18 @@ to provide a visual hierarchy to the text.
   </div>
 ```
 
-  > Like magic, the event teasers will rearrange themselves to fit the page width.  
-  > On desktop widths (`.col-md-3`) they will appear to be 4 across in a row.
+  Like magic, the event teasers will rearrange themselves to fit the page width.  
+
+  On desktop widths (`.col-md-3`) they will appear to be 4 across in a row.
     ![](images/part4s5e.png)
 
-  >On small tablets (`.col-sm-6`) they will appear as two rows of 2 items.
+  On small tablets (`.col-sm-6`) they will appear as two rows of 2 items.  
     ![](images/part4s5f.png)
 
-  >On phones (the default layout) they will appear in a single column, one after the other.
+  On phones (the default layout) they will appear in a single column, one after the other.  
     ![](images/part4s5g.png)
 
-  >Load the page in your browswer and resize the window. It should just work.
+  Load the page in your browser and resize the window. It should just work.
 
 **6. Add an external stylesheet.**  
 We finally get to use the `styles.css` stylesheet we created in step 1. We'll use it to add the background image and to override some of the Bootstrap text styling.
@@ -266,13 +269,13 @@ of the page they are styling. We'll add more groups of rules in another session.
 
   ```
 
-  >CSS files often have hundreds or even thousands of lines of code, and can easily
-  become a mess if there is not some basic order applied up front. Generally, it
-  helps if the rules appear in at least approximately the same order as the elements
-  they apply to appear in the HTML document. You also want the most generic, broadly
-  applicable rules to appear before more narrowly-defined rules. Once we know more CSS
-  we will discuss [BEM](https://css-tricks.com/bem-101), which provides a standard way of
-  keeping order and avoiding redundancy in CSS files.
+CSS files often have hundreds or even thousands of lines of code, and can easily
+become a mess if there is not some basic order applied up front. Generally, it
+helps if the rules appear in at least approximately the same order as the elements
+they apply to appear in the HTML document. You also want the most generic, broadly
+applicable rules to appear before more narrowly-defined rules. Once we know more CSS
+we will discuss [BEM](https://css-tricks.com/bem-101), which provides a standard way of
+keeping order and avoiding redundancy in CSS files.
 
 **7. Define the Basic Styling rules.**  
 The Basic Styling section of our stylesheet is where we define things like fonts and
@@ -301,18 +304,19 @@ h1 {
 
   **Save the file.**
 
-  >Atom's preview panel won't likely update to show the color. It's probably best to
+  Atom's preview panel won't likely update to show the color. It's probably best to
   keep the document open in a browser so you can refresh it after each save.
 
 **8. Fix the Logo Placement in the Navbar**  
 The problem with the logo is that Bootstrap assumes the `.navbar-brand` link is no more than 20px tall.
 So, it inserts 15px padding (whitespace) above and below it to keep it approximately in line with the menu links. However, since our logo is 38px tall and the navbar is only 50px tall, there is not enough room for the padding.
 
-  >Let's see how we can figure that out ourselves. **In your browser window, right-click on the Fairfield StagUp logo and select "Inspect element".**  
-  This will show us the HTML and CSS for the selected `img` element.
-    ![](images/part4s7a.png)
+* Let's see how we can figure that out ourselves. **In your browser window, right-click on the Fairfield StagUp logo and select "Inspect element".**  
+This will show us the HTML and CSS for the selected `img` element.  
 
-  >In the inspector panel/window, click on the `.navbar-brand` link as shown in the screenshot above. You should notice `padding` is 15px for the `.navbar-brand` class.
+  ![](images/part4s7a.png)
+
+  In the inspector panel/window, click on the `.navbar-brand` link as shown in the screenshot above. You should notice `padding` is 15px for the `.navbar-brand` class.
 
 * Add the rule below, which sets the padding to 6px above and below and 15px left and right.
 ```css
@@ -339,7 +343,7 @@ The background image is inside our assets folder. All we have to do is use it.
 
   > Why does the URL start with "../"? Because CSS uses a relative path based on the location of the CSS file, not the HTML file. The "../" tells CSS to look one directory up to find the images folder.
 
-  > While the background looks great, we're clearly not done yet:
+  While the background looks great, we're clearly not done yet:
   * The background image stays the same size regardless of the page width. We want it to stretch and shrink to fit.
   * The text does not show up nicely against the background image.
   We'll cover them one at a time.
@@ -369,22 +373,23 @@ The background image is inside our assets folder. All we have to do is use it.
     }
   ```
 
-  > While that makes the text stand out, it also blocks out half the background image entirely. There are really two problems. First, the white background is solid, not translucent. Second, it seems a bit crowded without any space around it.
+  While that makes the text stand out, it also blocks out half the background image entirely. There are really two problems. First, the white background is solid, not translucent. Second, it seems a bit crowded without any space around it.  
+
   ![](images/part4s8a.png)
 
-* Change the `.featured-text-container` background color to `rgba(100%, 100%, 100%, 0.8)`, which is the color code for an 80% opaque white.
-    > We'll learn more about color models soon. Just use the code provided for now.
+* Change the `.featured-text-container` background color to `rgba(100%, 100%, 100%, 0.8)`, which is the color code for white that is 80% opaque (i.e., 20% transparent).  
+  > We'll learn more about color models soon. Just use the code provided for now.
 
   ```css
-    /*---- Feature-Panel Styling ----*/
-    .featured-events-top {
-      background-image: url(../images/FeaturePhoto.jpg);
-      background-size: cover;
-      background-position: center center;
-    }
-    .featured-text-container {
-      background-color: rgba(100%, 100%, 100%, 0.8);
-    }
+  /*---- Feature-Panel Styling ----*/
+  .featured-events-top {
+    background-image: url(../images/FeaturePhoto.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .featured-text-container {
+    background-color: rgba(100%, 100%, 100%, 0.8);
+  }
   ```
 
   ![](images/part4s8b.png)
@@ -451,7 +456,7 @@ We'll now apply these principles to the text elements in our featured events pan
   }
   ```
 
-  > The new rule belongs at the *top* of the group (just below the comment) because it is more general than the others. The `margin` setting uses a shorthand notation to specify that there be exactly 4 pixels of whitespace below each selected element. The rule uses a grouped selector (with commas) so that the same declarations apply equally to `h1`, `h2`, and `h3` without any redundancy.
+  The new rule belongs at the *top* of the group (just below the comment) because it is more general than the others. The `margin` setting uses a shorthand notation to specify that there be exactly 4 pixels of whitespace below each selected element. The rule uses a grouped selector (with commas) so that the same declarations apply equally to `h1`, `h2`, and `h3` without any redundancy.
   > You'll note that this is the second time we've mentioned redundancy. That's because redundant code tends to create bugs!
 
 * With the whitespace removed from the titles, the event teasers in the bottom are now looking a bit crowded. Let's add back 15px of padding all around:
@@ -541,7 +546,7 @@ We'll now apply these principles to the text elements in our featured events pan
   }
   ```
 
-  > Having trouble finding the new rule? It's in the middle, just above the ones for the bottom part of the panel.
+  > Having trouble finding the new rule? It's in the middle, just above the ones for the bottom part of the panel. You were warned about this. CSS files get big fast and need to be organized carefully. Comments also help.
 
 * Lastly, let's make the taglines (the `h3` elements) stand out more by coloring them to match the titles. Because we want to apply the red to both top and bottom, we'll use a more general rule near the top.
 
