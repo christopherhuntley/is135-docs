@@ -585,5 +585,5 @@ We'll now apply these principles to the text elements in our featured events pan
   }
   ```
 
-**10. Save your work.**
+**10. Save your work.**  
 Commit to Git. Use the commit summary 'Completed part 4'. Push (sync) as usual to GitHub.
