@@ -95,9 +95,9 @@ We're going to use it for our embedded stylesheet.
       font-size: 160%;
     }
   ```
-* The headlines should look this this:
-  ![](images/part2s3c.png)
-  ![](images/part2s3d.png)
+* The headlines should look this this:  
+  ![](images/part2s3c.png)  
+  ![](images/part2s3d.png)  
 
 **4. Center the "Welcome to the world of Netscape
 and the Internet. Enjoy!" headline.**  
