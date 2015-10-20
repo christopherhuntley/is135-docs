@@ -90,11 +90,11 @@ We're going to use it for our embedded stylesheet.
 
 * In the stylesheet (i.e., in the `style` element) add a rule to make the text size of all `.big-capital` elements 60% larger than normal.
 
-```css
+  ```css
     .big-capital {
       font-size: 160%;
     }
-```
+  ```
 * The headlines should look this this:
   ![](images/part2s3c.png)
   ![](images/part2s3d.png)
