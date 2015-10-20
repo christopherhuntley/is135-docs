@@ -121,10 +121,10 @@ and the Internet. Enjoy!" headline.**
 
 **5. Recreate the `hr` wedge just above the footer.**
 
-In the original there was a sequence of `hr` elements styled to look like a wedge:
+In the original there was a sequence of `hr` elements styled to look like a wedge:  
   ![](images/part2s5a.png)
 
-However, the styling was done using obsolete HTML attributes. After stripping out the bad attributes, we're left with this:
+However, the styling was done using obsolete HTML attributes. After stripping out the bad attributes, we're left with this:  
   ![](images/part2s5b.png)
 
 We're going to need to use CSS pseudo-classes to select and resize the `hr` elements to match the original.
