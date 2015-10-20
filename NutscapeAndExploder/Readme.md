@@ -5,4 +5,4 @@
 
 ## Exercises
 1. [Make Netscape Validate.](Part1.md)
-2. Bring Netscape into the Modern Web.
+2. [Bring Netscape into the Modern Web.](Part2.md)
