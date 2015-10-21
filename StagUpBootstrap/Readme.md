@@ -7,9 +7,9 @@ The tutorial flows in 10 parts:
 * [Part 2: Layout, Sectioning, and Grids](Part2.md)
 * [Part 3: Navbars](Part3.md)
 * [Part 4: Backgrounds, Typography, and Buttons](Part4.md)
-* Part 5: Helpers and Images
-* Part 6: Panels, Thumbnails, Wells, and Media Objects
-* Part 7: Responsive Grids and Images
+* [Part 5: Panels](Part5.md)
+* Part 6: Thumbnails, Wells, and Media Objects
+* Part 7: Responsive Images and Utilities
 * Part 8: Colors and Effects
 * Part 9: Javascript effects
 
