@@ -111,6 +111,7 @@ The sidebar includes several menus, each styled as a [Bootstrap panel](http://ge
     border-color: #cccccc;
   }
   ```
+  
 * Use a descendant selector to set the background of the `.panel-heading` to charcoal gray (`#333333`):  
   ```css
   /*---- Panel/Menu Styling ----*/
