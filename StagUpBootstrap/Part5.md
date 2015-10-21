@@ -111,7 +111,7 @@ The sidebar includes several menus, each styled as a [Bootstrap panel](http://ge
     border-color: #cccccc;
   }
   ```
-  
+
 * Use a descendant selector to set the background of the `.panel-heading` to charcoal gray (`#333333`):  
   ```css
   /*---- Panel/Menu Styling ----*/
@@ -161,5 +161,5 @@ fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script
 * If you copied the embedding code correctly. the timeline shoould look something like this:
   ![](images/part5s3a.png)
 
-**4. Save your work. **  
+**4. Save your work.**  
 Commit to Git. Use the commit summary 'Completed part 5'. Push (sync) as usual to GitHub.
