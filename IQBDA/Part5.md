@@ -278,11 +278,20 @@ There is one more minor tweak to make before we’re done. The whole page seems 
   }
   ```
 
-  The padding looks nice except that now the '#navbar` doesn’t span the page anymore. That’s because it’s inside the `#page-wrapper` padding.
+  The padding looks nice except that now the `#navbar` doesn’t span the page anymore. That’s because it’s inside the `#page-wrapper` padding.
 
   ![](images/part5s6a.png)
 
-* **Take out the padding in the `#page-wrapper`.** Instead add `1em` left-right padding (and zero top-bottom padding) to `#page-header`, `#content`, and `#navbar`. Use a grouped selector so that you style all three at once.
+* Take out the padding in the `#page-wrapper`. It didn't work.
+```css
+#page-wrapper {
+  width:960px;
+  background-color: white;
+  margin: 0 auto; /* TB LR */
+}
+```
+
+* Add `1em` left-right padding (and zero top-bottom padding) to `#page-header`, `#content`, and `#navbar`. Use a grouped selector so that you style all three at once.
 
   ```css
   #page-header, #content, #navbar {
