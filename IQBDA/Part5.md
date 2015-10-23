@@ -311,11 +311,11 @@ There is one more minor tweak to make before we’re done. The whole page seems 
 
   ```css
   #page-header, #content, #navbar {
-  padding: 0 1em;
+    padding: 0 1em;
   }
 
   #page-header {
-  padding-top: 1em;
+    padding-top: 1em;
   }
   ```
 
