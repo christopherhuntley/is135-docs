@@ -100,7 +100,7 @@ full-width.
 
 **3. Fix the text-image alignment in the masthead.**
 
-The next item is the turtle logo and the “IQBDA” in the masthead. They should be side-by-side, aligned vertically, like this:
+The next item is the turtle logo and the “IQBDA” in the masthead. They should be side-by-side, aligned vertically, like this:  
   ![](images/part5s3a.png)
 
 We'll need to make several small CSS rules to fix it.
@@ -114,7 +114,7 @@ We'll need to make several small CSS rules to fix it.
   }
   ```
 
-  That gets us a little closer, but the alignment is wrong:
+  That gets us a little closer, but the alignment is wrong:  
   ![](images/part5s3b.png)
 
 * To be sure that there is no margin causing problems (the default vertical margin for an `h1` is `2em` in Chrome), set the `margin` of “IQBDA” to 0.
@@ -282,7 +282,7 @@ There is one more minor tweak to make before we’re done. The whole page seems 
 
   ![](images/part5s6a.png)
 
-* Take out the padding in the `#page-wrapper`. Instead add `1em` left-right padding (and zero top-bottom padding) to `#page-header`, `#content`, and `#navbar`. Use a grouped selector so that you style all three at once.
+* **Take out the padding in the `#page-wrapper`.** Instead add `1em` left-right padding (and zero top-bottom padding) to `#page-header`, `#content`, and `#navbar`. Use a grouped selector so that you style all three at once.
 
   ```css
   #page-header, #content, #navbar {
