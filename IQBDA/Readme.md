@@ -7,7 +7,7 @@ The tutorials flow in seven parts:
 * [Part 2: Templates and Tables](Part2.md)
 * [Part 3: Your First Form](Part3.md)
 * [Part 4: Basic Styling with CSS](Part4.md)
-* Part 5: Menu Bars and Page Layout
+* [Part 5: Navbar and Page Layout](Part5.md)
 * Part 6: Final Touches
 
 Do not start any of the tutorials until instructed. They are designed to correspond to specific chapters of your textbook.
