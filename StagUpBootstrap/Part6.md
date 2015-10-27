@@ -3,7 +3,7 @@
 ## Objectives
 * Use the grid syststem to lay out content
 * Use thumbnails and media objects to structure content items
-* Use anchor links to connect menus to content
+* Use within-page links to connect menus to content
 
 **1. Create and link the Teams and Investors panels.**  
 
@@ -52,7 +52,7 @@
 
   </main>
 ```
-* In the `.navbar-nav` at the top of the page, set the links to point to the anchors for our new panels.
+* In the `.navbar-nav` at the top of the page, set the links to point to our new panels using id selectors.
 
   ```html
   <ul class="nav navbar-nav">
@@ -60,6 +60,8 @@
     <li><a href="#investors">Investors</a></li>
   </ul>
   ```
+
+  > So, just like how we can refer to the `#teams` panel in CSS, we can do the same thing in URLs! Links that use the `#` in this way are sometimes called "bookmarks" or "anchor links". 
 
 **2. Populate and style the Team profiles.**
 
