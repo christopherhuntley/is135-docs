@@ -337,3 +337,4 @@ Inspect the page at various browswer widths. You'll find some a few problems.
   > `6em` is approximately the same height as 6 lines of text.
 
 **5. Save your work.**  
+Commit to Git. Use the commit summary 'Completed part 5'. Push (sync) as usual to GitHub.
