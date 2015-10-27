@@ -61,7 +61,7 @@
   </ul>
   ```
 
-  > So, just like how we can refer to the `#teams` panel in CSS, we can do the same thing in URLs! Links that use the `#` in this way are sometimes called "bookmarks" or "anchor links". 
+  > So, just like how we can refer to the `#teams` panel in CSS, we can do the same thing in URLs! Links that use the `#` in this way are sometimes called "bookmarks" or "anchor links".
 
 **2. Populate and style the Team profiles.**
 
@@ -134,7 +134,7 @@
   </div>
   ```
 
-* Set the `src` of the `img.media-object` to `https://placeholdit.imgix.net/~text?txtsize=38&txt=Logo&w=150&h=150`, which generates a gray 200x200 placeholder image. Change the `alt` to "company logo".
+* Set the `src` of the `img.media-object` to `https://placeholdit.imgix.net/~text?txtsize=38&txt=Logo&w=150&h=150`, which generates a gray 150x150 placeholder image. Change the `alt` to "company logo".
 * Inside the `h4.media-heading`, change the "Media heading" text to "Lorem Ipsum Dolor".
 * Replace the elipses under the `h4` with the first paragraph of the traditional 'Lorem Ipsum' text.
 * The result is this:
