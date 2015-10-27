@@ -293,10 +293,10 @@
 
 Inspect the page at various browswer widths. You'll find some a few problems.
 
-* When the investor profile thumbnails get wide, the headshots don't grow to fit, leaving thick margins on either side.
+* **Problem:** When the investor profile thumbnails get wide, the headshots don't grow to fit, leaving thick margins on either side.
   ![](images/part6s4a.png)
 
-  Solution: Make the thumbnail image fully responsive, filling 100% of the available space.
+  **Solution:** Make the thumbnail image fully responsive, filling 100% of the available space.
 
   ```css
   .thumbnail img {
@@ -304,11 +304,11 @@ Inspect the page at various browswer widths. You'll find some a few problems.
   }
   ```
 
-* When the page is just wide enough for the sidebar to appear on the right, the Twitter timeline overflows its panel, spilling out onto the right margin. This can cause all sorts of problems on an iPad.
+* **Problem:** When the page is just wide enough for the sidebar to appear on the right, the Twitter timeline overflows its panel, spilling out onto the right margin. This can cause all sorts of problems on an iPad.
 
   ![](images/part6s4b.png)
 
-  Solution: Only show the Twitter timeline on desktops. We can do that using [Bootstrap's Responsive Utility](http://getbootstrap.com/css/#responsive-utilities) classes. In this case we want to apply `.visible-lg` to the panel, like so:
+  **Solution:** Only show the Twitter timeline on desktops. We can do that using [Bootstrap's Responsive Utility](http://getbootstrap.com/css/#responsive-utilities) classes. In this case we want to apply `.visible-lg` to the panel, like so:
 
   ```html
   <div class="panel panel-primary visible-lg">
@@ -323,10 +323,10 @@ Inspect the page at various browswer widths. You'll find some a few problems.
   </div>
   ```
 
-* At apparently random intermediate widths, the investor profile grid seems to get weird gaps.
+* **Problem:** At apparently random intermediate widths, the investor profile grid seems to get weird gaps.
   ![](images/part6s4c.png)
 
-  Solution: The cause is the varying heights of the thumbnails. This is actually [a common problem](http://stackoverflow.com/questions/24590222/bootstrap-3-grid-with-different-height-in-each-item-is-it-solvable-using-only). The easiest solution is to make all of the thumbnail paragraphs the same minimum height.
+  **Solution:**  The cause is the varying heights of the thumbnails. This is actually [a common problem](http://stackoverflow.com/questions/24590222/bootstrap-3-grid-with-different-height-in-each-item-is-it-solvable-using-only). The easiest solution is to make all of the thumbnail paragraphs the same minimum height.
 
   ```css
   #investors .thumbnail p {
@@ -335,6 +335,57 @@ Inspect the page at various browswer widths. You'll find some a few problems.
   ```
 
   > `6em` is approximately the same height as 6 lines of text.
+
+* **Problem:** When the investor profiles get too narrow, the names don't fit anymore.
+  ![](images/part6s4d.png)
+
+  Strangely, the profiles are actually at their narrowest somewhere between the `xs` breakpoint (for phones) and `sm` breakpoint (for tablets). Recall that we are currently using both `.col-xs-6` and `.col-sm-3` for the investor profile grid. So, at the `sm` breakpoint there are 4 profiles on a row and at smaller widths there are 2 profiles on a row. Try resizing your browser page and see if you can spot the `sm` breakpoint.
+
+  **Solution:** There are three ways we could try to fix this one. We can i) decrease the text size;
+  ii) change the number of profiles per row; or iii) make the entire panel a little wider.
+
+  > Unfortunately, because there is no breakpoint in Bootstrap's grid between `sm` and `xs` there is no easy way to reduce the number of profiles on a row. That leaves us with reducing the text size and widening the panel. We'll do a little of both.
+
+  An easy way to widen the panel is to change the breakpoint for the `.main-content` and `.sidebar-content` columns. Currently they use `.col-sm-*` classes to switch from side-by-side layout to stacked layout at the `sm` breakpoint.
+
+  ```html
+  <main class="main-content col-sm-9">
+    ...
+  </main>
+  <aside class="sidebar-content col-sm-3">
+    ...
+  </aside>
+
+  ```
+
+  > The `.main-content` is on about line 86. The `.aside-content` is on about line 194. You can find them by searching for `main` and `aside` elements. There are just one of each.
+
+  Let's change the breakpoint from `sm` to `md`. On all mobile devices (phones and tablets) the `main-content` will then take up the entire width of the page. That's as much as we can ask for.
+
+  ```html
+  <main class="main-content col-md-9">
+    ...
+  </main>
+  <aside class="sidebar-content col-md-3">
+    ...
+  </aside>
+
+  ```
+
+  The text size reduction can be done with a bit of custom CSS. In the `style.css` file just add the following rule:
+
+  ```css
+  .thumbnail h3 {
+    font-size: 1.1em;
+  }
+  ```
+
+  > The rule belongs in the second-to-last position in the file, just below the one about thumbnail images being 100% and above the one we just added about thumbnail heights.  
+
+  With the fixes the page now looks like this:  
+
+  ![](images/part6s4e.png)
+
 
 **5. Save your work.**  
 Commit to Git. Use the commit summary 'Completed part 5'. Push (sync) as usual to GitHub.
