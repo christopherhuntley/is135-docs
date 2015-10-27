@@ -293,7 +293,8 @@
 
 Inspect the page at various browswer widths. You'll find some a few problems.
 
-* **Problem:** When the investor profile thumbnails get wide, the headshots don't grow to fit, leaving thick margins on either side.
+* **Problem:** When the investor profile thumbnails get wide, the headshots don't grow to fit, leaving thick margins on either side.  
+
   ![](images/part6s4a.png)
 
   **Solution:** Make the thumbnail image fully responsive, filling 100% of the available space.
@@ -323,7 +324,8 @@ Inspect the page at various browswer widths. You'll find some a few problems.
   </div>
   ```
 
-* **Problem:** At apparently random intermediate widths, the investor profile grid seems to get weird gaps.
+* **Problem:** At apparently random intermediate widths, the investor profile grid seems to get weird gaps.  
+
   ![](images/part6s4c.png)
 
   **Solution:**  The cause is the varying heights of the thumbnails. This is actually [a common problem](http://stackoverflow.com/questions/24590222/bootstrap-3-grid-with-different-height-in-each-item-is-it-solvable-using-only). The easiest solution is to make all of the thumbnail paragraphs the same minimum height.
@@ -336,7 +338,8 @@ Inspect the page at various browswer widths. You'll find some a few problems.
 
   > `6em` is approximately the same height as 6 lines of text.
 
-* **Problem:** When the investor profiles get too narrow, the names don't fit anymore.
+* **Problem:** When the investor profiles get too narrow, the names don't fit anymore.  
+
   ![](images/part6s4d.png)
 
   Strangely, the profiles are actually at their narrowest somewhere between the `xs` breakpoint (for phones) and `sm` breakpoint (for tablets). Recall that we are currently using both `.col-xs-6` and `.col-sm-3` for the investor profile grid. So, at the `sm` breakpoint there are 4 profiles on a row and at smaller widths there are 2 profiles on a row. Try resizing your browser page and see if you can spot the `sm` breakpoint.
