@@ -2,7 +2,6 @@
 
 ## Objectives
 * Create basic menu panels
-* Hide an element on mobile
 
 **1. Populate the sidebar menus.**
 The sidebar includes several menus, each styled as a [Bootstrap panel](http://getbootstrap.com/components/#panels).

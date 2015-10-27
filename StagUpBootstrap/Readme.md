@@ -8,9 +8,7 @@ The tutorial flows in 10 parts:
 * [Part 3: Navbars](Part3.md)
 * [Part 4: Backgrounds, Typography, and Buttons](Part4.md)
 * [Part 5: Panels](Part5.md)
-* Part 6: Thumbnails, Wells, and Media Objects
-* Part 7: Responsive Images and Utilities
-* Part 8: Colors and Effects
-* Part 9: Javascript effects
+* [Part 6: Thumbnails and Media Objects](Part6.md)
+* Part 7: Javascript effects
 
 Do not start any of the tutorials until instructed. They are designed to correspond to specific chapters of your textbook.
