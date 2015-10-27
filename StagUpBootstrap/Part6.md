@@ -241,7 +241,7 @@
   </div>
   ```
 
-  > Like with the team profiles, we're going to use a special Bootstrap component that works well with grids. This time it's a [Bootstrap thumbnail](http://getbootstrap.com/components/#thumbnails) instead of a media object. The effect is similar, but a thumbnail is a little more flexible than a media object.
+  > Like with the team profiles, we're going to use a special Bootstrap component that works well with grids. This time it's a [Bootstrap thumbnail](http://getbootstrap.com/components/#thumbnails) instead of a media object. The effect is similar, but a thumbnail is a little more flexible than a media object. For example, thumbnails have (mostly) responsive images that shrink to fit the space provided without any extra CSS.  
 
 * Inside the new div, paste the [Custom Content Thumbnail boilerplate  html](http://getbootstrap.com/components/#thumbnails-custom-content), like so:
   ```html
