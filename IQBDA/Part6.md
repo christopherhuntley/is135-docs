@@ -152,7 +152,9 @@ We’ll conclude with some light styling to the form on the member.html page. Wh
 
   ![](images/part6s3d.png)
 
-  > It looks like the `#page-wrapper` (i.e., the white background) is not expanding to fit the bottom margin on the submit button.
+**4. Fix the page height.**  
+
+ It looks like the `#page-wrapper` (i.e., the white background) is not expanding to fit the bottom margin on the submit button.
 
 * Set the height of the `#page-wrapper` to 100%, which will make it expand to fit the entirety of the page content:
 
@@ -187,5 +189,5 @@ We’ll conclude with some light styling to the form on the member.html page. Wh
 
   We could do more, like add a footer to make the page not look so imbalanced, but we'll call this done!
 
-**4. Save your work.**  
+**5. Save your work.**  
 Commit and sync your changes to GitHub. Use the commit summary 'IQBDA project complete'.
