@@ -153,9 +153,10 @@ We’ll conclude with some light styling to the form on the member.html page. Wh
 
   ![](images/part6s3d.png)
 
-**4. Fix the page height.**  
+  > It looks like the `#page-wrapper` (i.e., the white background) is not expanding to fit the bottom margin on the submit button. We'll fix that in the next step.
 
- It looks like the `#page-wrapper` (i.e., the white background) is not expanding to fit the bottom margin on the submit button.
+
+**4. Fix the page height.**  
 
 * Set the height of the `#page-wrapper` to 100%, which will make it expand to fit the entirety of the page content:
 
