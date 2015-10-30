@@ -22,6 +22,7 @@
 
 * To keep all the pages in sync, also add the link to the `#page-header` in `iqbdc.html` and `member.html`.
 * Open the page in Chrome or Firefox. The login link looks a bit out of place there; let’s see if we can move it to the top-right corner of the page.
+
   ![](images/part6s1a.png)
 
   The easiest way to move the link exactly where we want is with absolute positioning. Here’s the CSS to put into the `base.css` file:
@@ -36,6 +37,7 @@
   > The new rule belongs immediately below the `#page-header h2` rule. That's the spot that best corresponds to the link's position in the HTML document.
 
 * Refresh your browser. Unfortunately, the link doesn’t seem to want to stay inside the `#page-header`. It spills over into the page margin.
+
   ![](images/part6s1b.png)
 
   The problem is that *positioning offsets* (`top` and `right` here) are always with respect to a *containing block*, which in this case is the **full viewport**. If we stretch the browser window we’ll see that link staying put, right against the right edge of the viewport. To keep it contained within the `#page-header` we’ll need to apply relative positioning to the `#page-header`, which will then make it a containing block for `#user-links`.
@@ -50,6 +52,7 @@
   ```
 
   The link is now contained by the `#page-header`:
+
   ![](images/part6s1c.png)
 
 * Style the link to dark green to match the rest of the color scheme:
@@ -100,6 +103,7 @@ The table on the `iqbdc.html` page is pretty hard to read, with all the text cra
   > The `:nth-child()` pseudo-class accepts and argument to specify which of the children it applies to. In this case, we chose the `odd` children. The book covers lots of over cases. Can can, for example, select every fourth row or even the ones in the Fibonacci sequence.
 
 * Refresh your browser and check your work.
+
   ![](images/part6s2a.png)
 
 
@@ -120,6 +124,7 @@ We’ll conclude with some light styling to the form on the member.html page. Wh
   ```
 
   By displaying them as blocks, the form controls are pushed to the next line. That looks great, except for the radio buttons:
+
   ![](images/part6s3b.png)
 
   >The problem is that we’re using labels for each of the radio buttons. Rather than remove the labels, which provide a usability advantage because the user can click the word to select the button, we'll instead style them separately.
@@ -133,7 +138,8 @@ We’ll conclude with some light styling to the form on the member.html page. Wh
     }
   ```
 
-  We're almost done. We just need to do something about the submit button and maybe add some whitespace at the bottom of the form.
+  We're almost done. We just need to do something about the submit button and maybe add some whitespace at the bottom of the form.  
+
   ![](images/part6s3c.png)
 
 * Use a type selector to make the submit button display as a block and add some vertical spacing.
