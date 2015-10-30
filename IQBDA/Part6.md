@@ -4,6 +4,7 @@
 * Learn about containing blocks for absolute positioning.
 * Add styling to a basic HTML table.
 * Style a form to make it easier to use.
+* Use viewport sizing to fit the page to the device.
 
 **1. Add a login link.**  
   In a previous session we created a signup form for the site that included a password. This would imply that there must be some way to log in! So, let’s add a nav menu called “user-links” to the bottom of the `#page-header` in the HTML source. We’ll assume that the URL for the login page is “login” since we don’t know what it is for sure yet.
