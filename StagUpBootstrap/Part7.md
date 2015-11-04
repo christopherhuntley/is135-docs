@@ -361,7 +361,7 @@ Bootstrap's Grid System packs a lot of value into a surprisingly few lines of CS
 
   We're going to use Dev Tools to see how the CSS works on several levels to define the grid. Consider that the ancestry for each grid cell looks like this:
 
-    ![](images/BS_Grid_Hierarchy.svg)
+    ![](images/BS_Grid_Hierarchy.png)
 
   We'll check out each level to see what we find.  
 
@@ -395,10 +395,10 @@ Bootstrap's Grid System packs a lot of value into a surprisingly few lines of CS
 
   > The last couple of declarations for the padding are why the `.row` class uses negative margin to stretch itself 15 pixels left and right. The negative margins cancel out the padding on the outer edges of the first and last elements in the row. (You'll want to draw a picture to see why this works.) It's a neat trick but maybe a little too clever. Bootstrap 4 fixes uses an entirely different grid system design that avoids negative margins.
 
-  So that's it. The grid system is really just a few CSS rules that mostly do exactly as you'd expect oncefloat you understand media queries, margins, padding, containing blocks, .
+  So that's it. The grid system is really just a few CSS rules that mostly do exactly as you'd expect ... if you understand media queries, margins, padding, floats, and containing blocks.
 
 **4. Make the Navbar fixed to the top of the screen.**  
-Fixed navbars, where the menu stays in place at the top or bottom of the viewport with content scrolling "underneath," are becoming pretty common these days. The impetus is the the mobile web, where pages tend to be very narrow and long, making a trip back to a navbar at the top of the page inconvenient.
+Fixed navbars, where the menu stays in place at the top or bottom of the viewport with content scrolling "underneath," are becoming pretty common these days. The impetus is the mobile web, where pages tend to be very narrow and long, making a trip back to a navbar at the top of the page inconvenient. So why not just always have it around?
 
 Bootstrap includes support for fixed navbars. [All we have to do is add a class and then make a couple minor CSS adjustments.](http://getbootstrap.com/components/#navbar-fixed-top)
 
@@ -413,7 +413,7 @@ Bootstrap includes support for fixed navbars. [All we have to do is add a class 
 
   ![](images/part7s4a.png)
 
-* Add `50px` padding to the top of the `body`. It should align perfectly.
+* Add `50px` padding to the top of the `body`. It should now align perfectly.
 
   ```css
   /*---- Navbar Styling ----*/
@@ -423,15 +423,15 @@ Bootstrap includes support for fixed navbars. [All we have to do is add a class 
 
 **5. Fix the colors on primary buttons.**  
 
-The button at the top of the site appears red. However, once the user presses or
-even hovers over them they turn blue.
+The button at the top of the site appears red when we load the page. However, once the user presses or
+even hovers over it, the button turns blue.
 
 ![](images/part7s5a.png)
 
 Clearly, some combination of the `:hover` and `:active` pseudo-classes must be
 setting the background to blue. However, if we try to use Dev Tools to inspect
 a button it doesn't show the pseudo-classes. We're going to need to bring out our
-Dev Tools ninja skills.
+Dev Tools ninja skills this time.
 
 ![](images/part7s5b.png)
 
@@ -468,14 +468,13 @@ The rules change, now showing a rule for both `.btn-primary:active` and `btn-pri
 
   Refresh the browser and then press the button. Oops! It turns blue!
 
-* Toggle the `:hover` state back on. You should have both the `:active` and `:hover` states enabled.
-Yet more rules appear, this time the rules combine `:active` with `:hover`.
+* Toggle the `:hover` state back on. (You should have both the `:active` and `:hover` states enabled.)
+Yet more rules appear, this time combining `:active` with `:hover`.
 
   ![](images/part7s5e.png)
 
-> So, we have to cover both the case where the button is pressed and
-when the mouse is hovering over it, which of course it would be when
-the user is pressing the button.
+> So, we have to cover both the case where the button is pressed *while* the mouse
+is hovering over it, which of course is every time the user presses the button.
 
 * Add the following rule, which handles the requisite combinations of states.
 
