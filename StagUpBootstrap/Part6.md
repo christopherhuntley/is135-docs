@@ -1,7 +1,7 @@
 # StagUp Bootstrap, Part 6: Thumbnails and Media Objects
 
 ## Objectives
-* Use the grid syststem to lay out content
+* Use the grid system to lay out content
 * Use thumbnails and media objects to structure content items
 * Use within-page links to connect menus to content
 

@@ -19,7 +19,7 @@
   > The `images` and `css` folders are self-explanatory. The `js` folder is for any Javascript libraries we might want to add later.
 
 * Within the `css` folder create a blank file named `styles.css`.  
-  > This is where we will put our custom overrides to Boostrap's default styling.
+  > This is where we will put our custom overrides to Bootstrap's default styling.
 
 * In your browser, right-click on each of the following images to save them as new files in your `assets/images` folder (and do not change the filenames):  
 
