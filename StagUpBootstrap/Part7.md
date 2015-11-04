@@ -393,14 +393,14 @@ Bootstrap's Grid System packs a lot of value into a surprisingly few lines of CS
   * Depending on your browser width, you may have two media queries (for `min-width: 768 pixels`) for `col-sm-*`. In the screenshot they are overridden by the media queries above them.
   * Finally, there is a large rule, with selectors for every possible `.col-*-*` class (i.e., every cell in the grid). These set i) the positioning to relative so that it acts as a containing block for any positioned elements inside the cell, ii) the minimum height to 1 pixel so they stay visible even when the cell is empty, and iii) the left and right padding to 15 pixels to provide some whitespace around each cell.
 
-  > The last couple of declarations for the padding are why the `.row` class uses negative margin to stretch itself 15 pixels left and right. The negative margins cancel out the padding on the outer edges of the first and last elements in the row. (You'll want to draw a picture to see why this works.) It's a neat trick but maybe a little too clever. Bootstrap 4 fixes uses an entirely different grid system design that avoids negative margins.
+  > The last couple of declarations for the padding are why the `.row` class uses negative margin to stretch itself 15 pixels left and right. The negative margins cancel out the padding on the outer edges of the first and last elements in the row. (You'll want to draw a picture to see why this works.) It's a neat trick but maybe a little too clever. Bootstrap 4 uses an entirely different grid system design that avoids negative margins.
 
   So that's it. The grid system is really just a few CSS rules that mostly do exactly as you'd expect ... if you understand media queries, margins, padding, floats, and containing blocks.
 
 **4. Make the Navbar fixed to the top of the screen.**  
 Fixed navbars, where the menu stays in place at the top or bottom of the viewport with content scrolling "underneath," are becoming pretty common these days. The impetus is the mobile web, where pages tend to be very narrow and long, making a trip back to a navbar at the top of the page inconvenient. So why not just always have it around?
 
-Bootstrap includes support for fixed navbars. [All we have to do is add a class and then make a couple minor CSS adjustments.](http://getbootstrap.com/components/#navbar-fixed-top)
+Bootstrap includes support for fixed navbars. [All we have to do is add a class and then make a minor CSS adjustment.](http://getbootstrap.com/components/#navbar-fixed-top)
 
 * Add the `navbar-fixed-top` class to the `.navbar` on line 27.
 
@@ -417,7 +417,7 @@ Bootstrap includes support for fixed navbars. [All we have to do is add a class 
 
   ```css
   /*---- Navbar Styling ----*/
-  body { padding-top: 50px;
+  body { padding-top: 50px; }
   .navbar-brand { padding: 6px 15px;}
   ```
 
