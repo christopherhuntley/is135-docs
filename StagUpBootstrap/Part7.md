@@ -450,7 +450,7 @@ existing rule for `btn-primary`.
   }
   ```
 
-  > We used hsl() instead of a hex color code for convenience. The third, parameter, can
+  > We used hsl(...) instead of a hex color code for convenience. The third parameter can
   be used to create lighter or darker shades of the same color.
 
 * Click on the `:hover` state to toggle it off. The click the `:active` state to toggle it on.
