@@ -143,7 +143,7 @@ The problem is that the media query moves the `#main-nav` (by removing the float
 
 * Confirm that the `#main-nav` and `#search-btn` stay together at all page widths. We could fiddle around with the icon placement some more (by floating `#search-btn` to the right, for example), but that’s good enough for now. It’s hard to say the current placement is a bug, so we won’t fix it.
 
-* Commit your work to Git with the summary comment “Fixed the layout of the #main-nav and #search-btn between 768px and 915px widths.”  
+* Commit your work to Git with the summary comment “Fixed the layout of the #main-nav and #search-btn between 768px and 915px widths.”   
 
 
-** Push/sync your changes to GitHub. You're done!**
+**Push/sync your changes to GitHub. You're done!**
