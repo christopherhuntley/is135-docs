@@ -121,7 +121,7 @@ So, on the large screens the bottom padding was `5px`, but in the media query on
 
 ![](images/part2s2n.png)
 
-> Make 100% sure your browser is sized at about 950px wide. (You can use the Web Developer Toolbar's `Resize --> Display Window Size` to check.) If your copy doesn't look like this, then you need to go back and check your work. You may have edited the wrong lines in the CSS file.
+> Make 100% sure your browser is sized at about 950px wide. (You can use the Web Developer Toolbar's `Resize→Display Window Size` to check.) If your copy doesn't look like this, then you need to go back and check your work. You may have edited the wrong lines in the CSS file.
 
 * Commit your work to Git with the summary comment “Fixed the bottom margin bug for the #top-nav-container between 915px and 959px.”
 
@@ -130,3 +130,19 @@ So, on the large screens the bottom padding was `5px`, but in the media query on
 At about 910 pixels the search button becomes unglued from the navigation links:
 
 ![](images/part2s3a.png)
+
+The media query that handles 910px starts on about line 1185:
+
+![](images/part2s3b.png)
+
+The problem is that the media query moves the `#main-nav` (by removing the float) without also moving the search icon. It seems that the rule we commented out before (on about line 1167) was intended for this media query. Oops. It's a good thing we commented it out instead of deleting it. We can just move it to the right media query.
+
+* Insert the missing rule as shown below:
+
+  ![](images/part2s3c.png)
+
+* Confirm that the `#main-nav` and `#search-btn` stay together at all page widths. We could fiddle around with the icon placement some more (by floating #search-btn to the right, for example), but that’s good enough for now. It’s hard to say the current placement is a bug, so we won’t fix it.
+
+* Commit your work to Git with the summary comment “Fixed the layout of the #main-nav and #search-btn between 768px and 915px widths.”
+
+** Push/sync your changes to GitHub. You're done!**
