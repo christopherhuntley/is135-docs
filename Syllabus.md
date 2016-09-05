@@ -1,5 +1,5 @@
 # IS135 Fundamentals of Web Design  
-*Fairfield University, Fall 2015*
+*Fairfield University, Fall 2016*
 
 ## Course Description
 >Students learn the theory and practice of front end web design. Theoretical content will primarily focus on website design, with a heavy emphasis on developing sites that conform to standards and are responsive to the needs of practical applications and mobile devices. Hands-on work will help develop technical skills, working with HTML, CSS, XML, and other web client technologies. Students will learn to use a standard toolset and to follow generally accepted best practices. The course includes weekly web-programming assignments and a semester project. Three credits.
@@ -12,11 +12,11 @@
 * To practice teamwork and professional skills
 
 ## Instructor
->Christopher L. Huntley  
->Dolan School of Business, Room 1122  
->Email: chuntley@fairfield.edu  
+  Christopher L. Huntley  
+  Dolan School of Business, Room 1122  
+  Email: chuntley@fairfield.edu  
 
->Office Hours: Mondays and Thursdays 12:30-1:45pm, Wednesdays 1:30pm-2pm. Other times are by appointment only. However, email works well, especially when the instructor is otherwise unavailable.
+  Office Hours: Mondays and Thursdays 2:00-3:30pm, Wednesdays 1:00pm-2pm. Other times are by appointment only. However, email works well, especially when the instructor is otherwise unavailable.
 
 ## Resources
 ### Books
@@ -25,8 +25,8 @@
 
 ### Software
 * Atom (Code Editor)
-* Pixlr (Image Editor)
-* Lucidchart (Mockups and Diagramming)
+* Pixlr (online Image Editor)
+* Draw.io and Lucidchart (online Mockups and Diagramming)
 * Selected Chrome and Firefox Extensions (Debugging and Analysis)
 * Git, GitHub, and GitHub Desktop (Sharing and Version Control)
 * Google Drive, GitHub, and Blackboard
@@ -34,7 +34,7 @@
 All of the lectures and assignments will be kept in public Google Drive folders and GitHub repositories maintained by the instructor.
 Weekly lesson plans (with Google and GitHub links) will also be posted in the course Blackboard site. Quizzes will be online and hosted on Blackboard.
 
-In the spirit of [Eating our Own Dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), we will avoid using any software that is not developer-friendly (either [open source](http://opensource.org/definition) or free to use with a [public API](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid))). That specifically means **no MS Office** or other proprietary desktop software like Adobe Photoshop/Illustrator, Dreamweaver, etc. Even your project presentations will be built from scratch using Markdown and HTML.
+In the spirit of [Eating our Own Dogfood](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), we will avoid using any software that is not developer-friendly (either [open source](http://opensource.org/definition) or free to use with a [public API](https://en.wikipedia.org/wiki/Mashup_(web_application_hybrid))). That specifically means **no MS Office** or other proprietary desktop software like Adobe Photoshop/Illustrator, Dreamweaver, etc. Even your project presentations need to be online without Powerpoint (Google Slides is okay), with bonus points if you use only HTML and CSS.
 
 ### Other Resources
 * Tutorials, examples, and other content drawn from the web
@@ -52,19 +52,19 @@ This course is to be carried out seminar-style, with the instructor acting more 
 
 The following is only approximate and is subject to change.
 
-| Week | Themes | Reading Due |
+| Week | Topics/Themes | Chapters Due |
 |------|--------|-------------|
-| Sep 2 | Getting Started | |
-| Sep 9 | Exploring the Web | LWD 1-3 |
-| Sep 16 | HTML Basics | LWD 4-5 |
-| Sep 23 | Links, Images, Tables | LWD 6-8 |
-| Sep 30 | Forms and HTML5 |LWD 9-10 |
-| Oct 7 | Design Principles | PBWD 1 |
-| Oct 14 | CSS Basics | LWD 11-12 |
-| Oct 21 | Typography | PBWD 4 |
-| Oct 28 | Colors, Backgrounds, and Boxes | LWD 13-14 |
-| Nov 4 | Use of Color and Texture | PBWD 2, 3 |
-| Nov 11 | Floating and Positioning | LWD 15 |
-| Nov 18 | Page Layout Patterns and Techniques | LWD 16, 18 |
-| Dec 2 | Graphics and Imagery | LWD 21-22, PBWD 5 |
+| Sep 7 | Getting Started | |
+| Sep 14 | Exploring the Web | LWD 1-3 |
+| Sep 21 | HTML Basics | LWD 4-5 |
+| Sep 28 | Links, Images, Tables | LWD 6-8 |
+| Oct 5 | Forms and HTML5 |LWD 9-10 |
+| Oct 12 | Design Principles | PBWD 1 |
+| Oct 19 | CSS Basics | LWD 11-12 |
+| Oct 26 | Typography | PBWD 4 |
+| Nov 2 | Colors, Backgrounds, and Boxes | LWD 13-14 |
+| Nov 9 | Use of Color and Texture | PBWD 2, 3 |
+| Nov 16 | Floating and Positioning | LWD 15 |
+| Nov 30 | Page Layout Patterns and Techniques | LWD 16, 18 |
+| Dec 7 | Graphics and Imagery | LWD 21-22, PBWD 5 |
 | Final Exam | Project Presentations | <span></span> |

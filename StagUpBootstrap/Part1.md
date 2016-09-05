@@ -1,7 +1,7 @@
 # StagUp Bootstrap Part 1: Setup
 ## Objectives
 * Set up a new Git repository and publish it to GitHub
-* Start a new Bootstrap-based webiste project from scratch
+* Start a new Bootstrap-based website project from scratch
 * Create and debug your first Bootstrap page
 * Learn about Content Distribution Networks
 
@@ -73,7 +73,7 @@
 
     Replace line 11 (all of it) with this code for Bootstrap CDN's copy of the CSS file:
     ```html
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     ```
     >Note how the new link uses a full, absolute URL, complete with the `https` protocol in front. That's because the file is actually loaded directly from the CDN without ever touching your hard drive.
 
@@ -84,7 +84,8 @@
 
     Replace that line with the code for Bootstrap CDN's copy of the Javascript file:
     ```html
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     ```
 
   * The 'Hello world!' text should now look like this:  

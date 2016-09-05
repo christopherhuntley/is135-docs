@@ -4,23 +4,21 @@
 
 ### Requirements
 The following instructions assume the following hardware & software:
-* A laptop or desktop computer with at least 1080p resolution (1920x1080). Most modern laptops meet this standard and the computers in the DSB labs are also plenty large.
-* A thumb drive or hard disk with at least 2GB of free space. In using your own laptop then just make sure you have some free space on your drive. If using the lap computers then please bring your own thumb drive.
-* A reasonably up-to-date operating system. On Macs, that means Mavericks or later. On Windows PCs, that means Windows 7, 8, 8.1, or 10.
+* A laptop or desktop computer with at least 1080p resolution (1920x1080). Most modern laptops meet this standard and the computers in the DSB labs are also fine.
+* A thumb drive or hard disk with at least 2GB of free space. If using your own laptop then just make sure you have some free space on your drive. If using the lap computers then please bring your own thumb drive with plenty of space.
+* A reasonably up-to-date operating system. On Macs, that means Mavericks or later. On Windows PCs, that means Windows 7, 8, 8.1, or 10. If you have something else, then ask for help.
 
 ## Set up Chrome, Firefox, and extensions.
 
 1. Make sure you have the latest versions of Chrome and Firefox installed.
 2. In Chrome, open a new tab and then go to Window → Extensions. Click the “Get more extensions” link at the bottom of the page. Find and install each of the following extensions and apps:
     * Web Developer (extension) by Chris Pederick
-    * Lucidchart for Education (app) by Lucidchart.com
-    * Pixlr Editor (app) by Pixlr.com
-    * Lightshot (extension) by prntscrn.com
+    * Nimbus Screenshot and Screencast (extension) by nimbus-screenshot.everhelper.me
 
- *Note: if using a university-owned computer some of these extensions/apps may already be installed or you may not have permissions needed to install them. In either case just install what you can and then move on.*
+ *Note: if using a university-owned computer some of these extensions may already be installed or you may not have permissions needed to install them. In either case just install what you can and then move on.*
 3. In Firefox, go to Tools → Add-ons. Use the search box in the upper-right corner of the page to find and install the following extensions:
-    * Web Developer (extension) by Chris Pederick
-    * ColorZilla (extension) by Alex Sirota
+    * Web Developer (add on) by Chris Pederick
+    * Nimbus Screen Capture (add on) by Nimbus Web
 
  *The note about installing Chrome extensions also applies to Firefox extensions. Install what you can and move on.*
 4. You will need to repeat the above on every computer you intend to use for this course.
@@ -32,12 +30,13 @@ The following instructions assume the following hardware & software:
     >[Git](https://git-scm.com) is a Version Control System that keeps track of changes you make to your files so you can *undo* them if needed. It can even *revert* your files to whatever was in them weeks or months before. It's like an undo button that can go back forever.
 
     >[GitHub](https://github.com) is a place to backup and share Git *repositories*, which are collections of files that make up your projects. _If you know a 'professional' web developer who has not used Git or GitHub then please do not listen to **any** advice they may give you for this course. Developers can be fired for not taking good care of their files, and you should not be working with people who will give advice that will get you fired. Like with using IE, you've been warned._
-2. Go to [GitHub.com](https://github.com) and sign up for a free account. So that you qualify for an account upgrade in the next step, be sure to use your Fairfield University email address. You do not have to initialize any repositories yet. We’ll do that in a later step.
+
+2. Go to [GitHub.com](https://github.com) and sign up for a free account. So that you qualify for an account upgrade in the next step, be sure to use your `@student.fairfield.edu` email address. You do not have to initialize any repositories yet. We’ll do that in a later step.
 
     ![GitHub signup](images/setup/GitHubSignup.png)
 
-3. Post your GitHub account information [here](https://docs.google.com/forms/d/1A7oq_6nTaOgUQWSDea50oLf5im--6i4u8adtuitWcOk/viewform) so that you can be added to the `fairfield-is135-fall2015` organization. Adding you to the organization may take a little time, but hopefully we’ll have this done by the end of class.
-4. Once you’ve been added to the `fairfield-is135-fall2015` organization, you will see it listed in your GitHub dashboard the next time you load the page.
+3. Post your GitHub account information [here](https://docs.google.com/forms/d/1A7oq_6nTaOgUQWSDea50oLf5im--6i4u8adtuitWcOk/viewform) so that you can be added to the `fairfield-is135-fall2016` organization in GitHub Classroom. Adding you to the organization may take a little time, but hopefully we’ll have this done by the end of class.
+4. Once you’ve been added to the `fairfield-is135-fall2016` organization, you will see it listed in your GitHub dashboard the next time you load the page.
 
 ## Install the GitHub Desktop app.
 1. [GitHub Desktop](https://desktop.github.com) makes using Git and GitHub *a lot* easier, especially for people who don't program for a living. Without it you would have to enter lots of cryptic Git commands and hope that you didn't misspell something important. GitHub Desktop  also takes care of connecting your repositories to GitHub without having to reenter your password all the time (or deal with SSH keys).
@@ -45,7 +44,7 @@ The following instructions assume the following hardware & software:
 3. Open the app. You should be asked to set your identity in the preferences. If not (e.g., somebody, not you, has already done that) then open the preferences manually. Then i) link in your GitHub account on the `Accounts` tab and ii) set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab.
 
 ## Install the Atom Editor.
-1. Go to the [Atom.io](https://atom.io) and read about all of Atom's killer features.
+1. Go to [Atom.io](https://atom.io) and read about all of Atom's killer features.
 2. Check to see if you already have Atom installed. If not, then download and run the installer.
 3. We'll be using Atom in a few minutes. Sit tight for now.
 
@@ -56,13 +55,13 @@ The following instructions assume the following hardware & software:
     ![The GitHub Fork button](images/setup/Fork.png)
 
 3. When asked where to create the new repository, **choose your GitHub account**. Do not select the class's GitHub organization. **If you fork it to the organization account by accident, then please delete your forked copy (or ask the instructor for help).**
-4. Click the `Clone in Desktop` button to create a *local copy* of the repository on your computer.
+4. Open your new forked copy (i.e., with your name in the URL instead of `christopherhuntley`). Click the `Clone in Desktop` button to create a *local copy* of the repository on your computer.
 
     ![The GitHub Clone button](images/setup/Clone.png)
 
-    If you get an error message about Git not being installed, then click the `Install Command Line Tools` button in the GitHub Desktop preferences.  
+    >If you get an error message about Git not being installed, then click the `Install Command Line Tools` button in the GitHub Desktop preferences.  
 
-5. Create the new repository folder on your hard drive or (a thumb drive if you are using a lab computer). To keep things simple, it is recommended to keep all your repositories inside a `GitRepos` folder so you mix them up with other things.
+5. When prompted, create the new repository folder on your hard drive or (a thumb drive if you are using a lab computer). To keep things simple, it is recommended to keep all your repositories inside a `GitRepos` folder so you mix them up with other things.
 6. The repository should now appear in GitHub Desktop.
 
 ## Make your first Git Commit and Push to GitHub.
@@ -70,7 +69,7 @@ The following instructions assume the following hardware & software:
 
     ![Open in Atom](images/setup/OpenInAtom.png)
 
-    >If that doesn't work then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.).
+    >If that doesn't work (likely because you are using MS Windows) then just open up Atom yourself and then manually open the *learning-web-design* repository folder  (`File`→`Open...`, etc.).
 
 2. Open the `Readme.md` file. You will see some plain text with `#` and `*` characters sprinkled in for formatting. This is Markdown, a formatting language used for writing documentation in plain text. That's what the `.md` means in the filename. GitHub automatically converts Markdown text to HTML for displaying in your web browser.  
 

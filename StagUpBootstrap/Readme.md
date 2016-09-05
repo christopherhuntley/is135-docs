@@ -1,7 +1,7 @@
 # The StagUp Bootstrap Project
 >This project is designed to step through the basics of using the [Bootstrap](http://getbootstrap.com) framework. You will build a simplified version of the new [Fairfield StagUp](http://fairfieldstagup.org) website.
 
-The tutorial flows in 10 parts:
+After a few preliminaries, the tutorial flows in 7 parts:
 * [Preliminaries](Preliminaries.md)
 * [Part 1: Setup](Part1.md)
 * [Part 2: Layout, Sectioning, and Grids](Part2.md)
@@ -9,7 +9,6 @@ The tutorial flows in 10 parts:
 * [Part 4: Backgrounds, Typography, and Buttons](Part4.md)
 * [Part 5: Panels](Part5.md)
 * [Part 6: Thumbnails and Media Objects](Part6.md)
-* Part7: Debugging with DevTools
-* Part 8: Javascript effects
+* [Part 7: Debugging with DevTools](Part7.md)
 
-Do not start any of the tutorials until instructed. They are designed to correspond to specific chapters of your textbook.
+**Do not start any of the tutorials until instructed. They are designed to correspond to specific chapters of your textbook.**
