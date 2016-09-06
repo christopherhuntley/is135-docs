@@ -41,7 +41,7 @@ The following instructions assume the following hardware & software:
 ## Install the GitHub Desktop app.
 1. [GitHub Desktop](https://desktop.github.com) makes using Git and GitHub *a lot* easier, especially for people who don't program for a living. Without it you would have to enter lots of cryptic Git commands and hope that you didn't misspell something important. GitHub Desktop  also takes care of connecting your repositories to GitHub without having to reenter your password all the time (or deal with SSH keys).
 2. Download and install GitHub Desktop.
-3. Open the app. You should be asked to set your identity in the preferences. If not (e.g., somebody, not you, has already done that) then open the preferences manually. Then i) link in your GitHub account on the `Accounts` tab and ii) set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab.
+3. Open the app. You should be asked to set your identity in the preferences. If not (e.g., somebody, not you, has already done that) then open the preferences manually; then i) link in your GitHub account on the `Accounts` tab and ii) set your full name and email address on the `Advanced` tab. You may also need to `Install Command Line Tools` on the Advanced tab.
 
 ## Install the Atom Editor.
 1. Go to [Atom.io](https://atom.io) and read about all of Atom's killer features.
@@ -61,7 +61,7 @@ The following instructions assume the following hardware & software:
 
     >If you get an error message about Git not being installed, then click the `Install Command Line Tools` button in the GitHub Desktop preferences.  
 
-5. When prompted, create the new repository folder on your hard drive or (a thumb drive if you are using a lab computer). To keep things simple, it is recommended to keep all your repositories inside a `GitRepos` folder so you mix them up with other things.
+5. When prompted, create the new repository folder on your hard drive (or a thumb drive if you are using a lab computer). To keep things simple, it is recommended to keep all your repositories inside a `GitRepos` folder so you mix them up with other things. Create the `GitRepos` folder before creating the new repository folder.
 6. The repository should now appear in GitHub Desktop.
 
 ## Make your first Git Commit and Push to GitHub.
