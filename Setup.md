@@ -35,7 +35,7 @@ The following instructions assume the following hardware & software:
 
     ![GitHub signup](images/setup/GitHubSignup.png)
 
-3. Post your GitHub account information [here](https://docs.google.com/forms/d/1A7oq_6nTaOgUQWSDea50oLf5im--6i4u8adtuitWcOk/viewform) so that you can be added to the `fairfield-is135-fall2016` organization in GitHub Classroom. Adding you to the organization may take a little time, but hopefully we’ll have this done by the end of class.
+3. Post your GitHub account information [here](https://docs.google.com/forms/d/e/1FAIpQLScqoNRnE5Ajb3lL3aw0kyLIkylKFTwg_Xgt7JrcQ-3mQ2uODQ/viewform) so that you can be added to the `fairfield-is135-fall2016` organization in GitHub Classroom. Adding you to the organization may take a little time, but hopefully we’ll have this done by the end of class.
 4. Once you’ve been added to the `fairfield-is135-fall2016` organization, you will see it listed in your GitHub dashboard the next time you load the page.
 
 ## Install the GitHub Desktop app.
