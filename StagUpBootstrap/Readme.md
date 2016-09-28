@@ -1,5 +1,5 @@
 # The StagUp Bootstrap Project
->This project is designed to step through the basics of using the [Bootstrap](http://getbootstrap.com) framework. You will build a simplified version of the [Fairfield StartUp](http://fairfield.startup.fairfield.edu) website, which was originally called Fairfield StagUp but had to be renamed at the request of the Athletics department. 
+>This project is designed to step through the basics of using the [Bootstrap](http://getbootstrap.com) framework. You will build a simplified version of the [Fairfield StartUp](http://fairfieldstartup.fairfield.edu) website, which was originally called Fairfield StagUp but had to be renamed at the request of the Athletics department. 
 
 After a few preliminaries, the tutorial flows in 7 parts:
 * [Preliminaries](Preliminaries.md)
