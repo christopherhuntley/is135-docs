@@ -9,7 +9,7 @@
   * In GitHub Desktop create a new local Git repository by clicking the plus sign in the upper-left-hand corner, selecting Create, and entering the name `stagup-bootstrap`.      
     ![New Git Repo dialog](images/part1s1.png)
 
-  >Take care where you are creating the new repository folder. It should not be a subfolder of a another Git repository. The `IS135` folder pointed to by the arrow above is **not** a repository. It is just a regular folder where IS135 repositories are kept.
+  >Take care where you are creating the Local Path of new repository folder. It should **not be a subfolder of another Git repository**. The `IS135` folder pointed to by the arrow above is **not** a repository. It is just a regular folder where IS135 repositories are kept. Yours might be just `GitRepos` (without the IS135), which works just fine.
 
   * Publish the Git repo to GitHub. It should now appear in your GitHub account as an empty repository folder.   
 
@@ -45,7 +45,7 @@
 
   ![](images/part1s3a.png)
 
-  Unfortunately, there is a bug in our code (yes, already) preventing Bootstrap from loading correctly.
+  Unfortunately, there is a bug in our code (yes, already) that may be preventing Bootstrap from loading correctly.
 
   >We can tell there is a problem because the font is wrong. It's supposed to look like the font used on the Bootstrap website. Details like this matter. Imagine if we'd done a bunch of work and could not figure out why none of our Bootstrap code seemed to work? It's always better to look for and fix bugs as soon as you can.
 
@@ -61,7 +61,7 @@
 
   ![](images/part1s3b.png)  
 
-  >A content distribution network (CDN) is used to serve up files that lots of people want to download all at once. Instead of storing these files on a single server that might be located on the other side of the world (and maybe 1 second away on the internet), a CDN keeps copies on lots of servers and the one that can get the files to you the fastest. It's quite a neat way to speeed up the web.
+  >A content distribution network (CDN) is used to serve up files that lots of people want to download all at once. Instead of storing these files on a single server that might be located on the other side of the world (and maybe 1 second away on the internet), a CDN keeps copies on lots of servers and the one that can get the files to you the fastest. It's quite a neat way to speed up the web.
 
   Instead of downloading the files, setting up the required folders, etc., we'll just use copies of the files supplied by the Bootstrap CDN.
 
@@ -76,6 +76,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     ```
     >Note how the new link uses a full, absolute URL, complete with the `https` protocol in front. That's because the file is actually loaded directly from the CDN without ever touching your hard drive.
+
+    >To make sure you get the latest copy of Bootstrap, you may want to copy directly from the Bootstrap CDN template on the Bootstrap website.
 
   * Go to line 26, the one with the bad Javascript link:
     ```html
