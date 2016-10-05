@@ -8,11 +8,11 @@
 **1. Add the new `member.html` page.**
   * Create a blank `member.html` file.
   * Add a navigation link for the `member.html` file to the navbar menus in the `iqbdc.html` and`index.html` files. The link text should be “Become a Member”.
-  
+
     ![](images/part3s1a.png)
 
-  * Near the bottom of the `index.html` file there is a link in the content that has is supposed to refer to the `member.html` file. Update the link to point to the new file and take out the `onclick` attribute that has the javascript popup message.
-  * Use the ‘template’ for the member.html file. Follow the same technique we used in Part 2  to reuse the `index.html` code for everything except the main page content.
+  * Near the bottom of the `index.html` file there is a link in the content that is supposed to refer to the `member.html` file. Update the link to point to the new file and take out the `onclick` attribute that has the javascript popup message.
+  * Use the ‘template’ for the `member.html` file. Follow the same technique we used in Part 2  to reuse the `index.html` code for everything except the main page content.
   * Give the `member.html` a `header` with the headline “Join IQBDA Today!”. (Look at how we did that in Part 2. Be consistent!)
   * Close the `index.html` and `iqbdc.html` files. The rest of this exercise will focus just on the new `member.html` file.
 
@@ -33,6 +33,7 @@
 | channel | How did you hear about us? | select | "Superbowl Ad", "News Article", "Email", "Flyover at the beach" |
 
   A few tips:
+  * **Don't wrap the form fields in list elements** as you may have seen done in the textbook. There are better ways to organize them that we will explore in another exercise. For now, just worry about how the fields operate, not what they look like or how they are organized.
   * Each field should have a `label` element. Whenever possible use explicit labeling, where the `for` attribute of the `label` element matches the `id` attribute of the input.
   * Labels for `radio` controls are handled a little differently from the rest. Each option (“Yes” or “No”) should have its own `label` (attached explicitly). In addition, the question “How did you …” is also a `label`, but don’t attach it to anything; just use a `label` element without a `for` attribute. If you try to use implicit labeling as described in the book you will actually get a bug.
   * Don’t forget to add a submit button to the bottom of the form.
