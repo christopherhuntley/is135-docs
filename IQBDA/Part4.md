@@ -226,7 +226,7 @@ In fact, why not copy and paste to be sure?
 **4. Use CSS to override the default styling.**  
 
   Create a new CSS file called `base.css`. This is where we’re going to put all our basic styling for the site.
-    > The HTML refresh from step 2 included the `link` needed to load the `base.css` external stylesheet.
+  >The HTML refresh from step 2 included the `link` needed to load the `base.css` external stylesheet.
 
   Add style rules to the `base.css` file that meet the following specifications, which we'll pretend come from an art director with no web design experience:  
 
